@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <div>
+        Message : {{message}}
+    </div>
+    <div>
+        <input v-model= "message"/>
+    </div>
+    <p v-bind:title="message">Hover</p>
+    <button @click="updateMsg">Update Msg</button>
+    <div v-bind:class="message">Test</div>
+    <div v-show="message==='Hello Vue'">Shown</div>
+    <h2>Let's GO Vue</h2>
+    <span v-bind:style="{fontSize: myFontSize}">
+        Changed?
+    </span>
+    <h2> Looper </h2>
+    <ul>
+        <li v-for="(x,i) in message">
+            {{i}} - {{x}}
+        </li>
+    </ul>
+    <script src="./vue-test.js"></script>
+</div>
+</body>
+</html>

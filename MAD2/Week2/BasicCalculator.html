@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width = device-width">
+    <title> Sample Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/mathjs/lib/browser/math.js"></script>
+    <script type="text/javascript">
+        function addlog(msg){
+            var ul = document.getElementById("log");
+            var li = document.createElement("li");
+            var msg_txt_node = document.createTextNode(msg);
+            li.appendChild(msg_txt_node);
+            ul.appendChild(li);
+        }
+        function math_calculate(){
+            exp = document.getElementById("expression").value;
+            if(exp) {
+                try {
+                    ans = math.evaluate(exp);
+                    document.getElementById("expression").value = ans;
+                    addlog(exp + " = " + ans);
+                }catch (e){
+                    console.log("Bad Expression");
+                    addlog(exp + " is Bad")
+                }
+            }
+        }
+        function initApp(){
+            cal_button = document.getElementById("calculator")
+            cal_button.addEventListener("click", math_calculate)
+        }
+        function inp_num(num){
+            exp = document.getElementById("expression").value;
+            exp = exp + num;
+            document.getElementById("expression").value = exp;
+        }
+
+        function clearExp(){
+            exp = document.getElementById("expression").value;
+            addlog("Cleared");
+            document.getElementById("expression").value = "";
+        }
+        function backSpace(){
+            exp = document.getElementById("expression").value;
+            document.getElementById("expression").value = exp.substring(0, exp.length-1);
+        }
+    </script>
+</head>
+<body onload="initApp()">
+<div class="container">
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col">
+            <input type="input" class="form-control" id="expression" placeholder="3*5">
+        </div>
+        <div class="col">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col">
+            <button class="btn btn-primary" onclick="inp_num('7')">7</button>
+            <button class="btn btn-primary" onclick="inp_num('8')">8</button>
+            <button class="btn btn-primary" onclick="inp_num('9')">9</button>
+            <button class="btn btn-warning" onclick="inp_num('/')">/</button>
+            <button class="btn btn-danger" onclick="clearExp()">CE</button>
+        </div>
+        <div class="col">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col">
+            <button class="btn btn-primary" onclick="inp_num('4')">4</button>
+            <button class="btn btn-primary" onclick="inp_num('5')">5</button>
+            <button class="btn btn-primary" onclick="inp_num('6')">6</button>
+            <button class="btn btn-warning" onclick="inp_num('*')">*</button>
+            <button class="btn btn-secondary" onclick="backSpace()">BS</button>
+        </div>
+        <div class="col">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col">
+            <button class="btn btn-primary" onclick="inp_num('1')">1</button>
+            <button class="btn btn-primary" onclick="inp_num('2')">2</button>
+            <button class="btn btn-primary" onclick="inp_num('3')">3</button>
+            <button class="btn btn-warning" onclick="inp_num('-')">-</button>
+        </div>
+        <div class="col">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col">
+            <button class="btn btn-primary" onclick="inp_num('0')">0</button>
+            <button class="btn btn-primary" onclick="inp_num('2')">.</button>
+            <button id="calculator" class="btn btn-success">=</button>
+            <button class="btn btn-warning" onclick="inp_num('+')">+</button>
+        </div>
+        <div class="col">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col">
+            <ul id="log"></ul>
+        </div>
+        <div class="col">
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>
