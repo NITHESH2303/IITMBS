@@ -1,0 +1,14 @@
+let startNamePrinter = (name) => {
+    let x = name.split('').reverse()
+    console.log(x)
+    let handler = setInterval(() => {
+            let y = x.pop()
+            console.log(y)
+        }, 1000
+    )
+    setTimeout(() => {
+        clearInterval(handler)
+        }, (name.length + 1) * 1000
+    )
+}
+startNamePrinter ('orange')

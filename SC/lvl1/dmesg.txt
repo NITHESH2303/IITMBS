@@ -1,0 +1,892 @@
+htAvgLQM rssi=-44 snr=34 txRate=433333 rxRate=433333
+
+[304660.891208]: LQM-WIFI: slow-wifi featureEnabled:1 Channel:36 chWidth:80 phyMode:128 nss:2 RSSI:-44 CCA:8 SNR:34 offChanDurUS:0 TVPMDurMS:0 concurrentIntDurMS:0 randomMac:0 dataStallScore:50 networkScore:0
+[304660.891220]: LQM-WIFI: slow-wifi btAntDurMS:0 btESCO:0/0 rc1CoexDurMS:0 rc2CoexDurMS:0 lteCoexDurMS:0 totalNonWLANDurMS:0 infraDutyCycle:100 lastScanType:0
+[304660.891224]: LQM-WIFI: slow-wifi availWLANDurMS:9928 availTxDurMS:9560 realTxDurMS:17 availRxDurMS:9911 realRxDurMS:368 measurementDurMS:9928 lastScanDurMS:0
+[304660.891228]: LQM-WIFI: slow-wifi Tx tput (i/p:0 o/p:0 expected:0)Mbps queueFullDurMS:0 avgLatencyMS:1 maxLatencyMS:5 phyRate(mode:433 avg:430 expected:892) phyRateTputRatio:0
+[304660.891231]: LQM-WIFI: slow-wifi Tx AMPDUDensity(actual:1 expectedAtQueueFull:64) retries:0 fails:0 fwFrames:102 hostFrames:0 hostFails:0 ctlPkts:2(2123) symptomsFails:0
+[304660.891235]: LQM-WIFI: slow-wifi TxLim[1] outputBelowExpected:0 outputBelowInput:0 lowTxFrameCount:1 queueFull:0 highLatency:0 baselineNotAllowed:0 highSymptomsFails:0
+[304660.891238]: LQM-WIFI: slow-wifi TxLim[1] lowPhyRate:0 lowPhyRateTputRatio:0 highPER:0 highRetries:0 lowTxAMPDUDensity:1 lowCCA:1 activeCoex:0 hostFWMismatch:1
+[304660.891241]: LQM-WIFI: slow-wifi Rx tput:0 Mbps baseline:0 Mbps overflows:0 fcsFail:1165 plcpBad:1355 goodPlcps:1536 crsGlitches:166 fwFrames:448 ucastFWFrames:107 hostFrames:0 AmpduDUP:0 APTxDataStallPct:0 rxAmpduTxBaMismatch:0
+[304660.891246]: LQM-WIFI: slow-wifi Rx ucast(replays:0 decryptErrs:0) mcast(replays:0 decryptErrs:0) phyRate(mode:433 avg:423 expected:892) dups:0 retries:0 phyRateTputRatio:0
+[304660.891249]: LQM-WIFI: slow-wifi RxLim[1] highRetries:0 highPhyPER:0 highDataPER:0 highOverflows:0 highRSSI:1 lowPhyRate:0 lowPhyRateTputRatio:0 
+[304660.891252]: LQM-WIFI: slow-wifi RxLim[1] highFCSErrors:0 highDups:0 highReplays:0 highDecryptErrors:0 highMCDecryptErrors:0 lowRxFrameCount:1
+[304660.891255]: LQM-WIFI: UI Entry curState:Idle prevState:PendingIP event:ChannelQualityUpdate data:1
+[304660.891259]: LQM-WIFI: UI Exit curState:Idle prevState:PendingIP
+[304660.891262]: LQM-WIFI: slow-wifi Host and FW packet count mismatchLQM-WIFI: slow-wifi Host and FW packet count mismatchLQM-WIFI-PHY:  Version = 5, ChanSpec=0xe02a, phy_wdg=10663, noise_req=10660, noise_crsbit=0, noise_apply=6, cal_counter=61, slice=0
+[304660.997529]: LQM-WIFI-PHY:  rxchain=15, txchain=0, gbd_bphy_sleep_counter=0, gbd_ofdm_sleep_counter=1, gbd_ofdm_desense=17, gbd_bphy_desense=0 
+[304660.997534]: LQM-WIFI-PHY:  chiptemp=30, femtemp=-50, btcx_mode=0, ltecx_mode=0, weakest_rssi=-53, chan_switch_cnt=40, phycal_disable=0, featureflag=64
+[304660.997538]: LQM-WIFI-PHY:  deaf_count=0, noise_mmt_overdue=0, crsmin_pwr_apply_cnt=11, ed_crs_status=0, preempt_status1=0, preempt_status2=35186, preempt_status3=0, preempt_status4=0 , counter_noise_iqest_to=0, cca_stats_total_glitch=36, cca_stats_bphy_glitch=0, cca_stats_total_badplcp=301,  cca_stats_bphy_badplcp=0, cca_stats_mbsstime= 1000, cca_stats_ed_duration=0
+[304660.997545]: LQM-WIFI-PHY:  measurehold=0, rxsense_disable_req_ch=0, ocl_disable_reqs=0, interference_mode=9, power_mode=1, obss_last_read_time=304645, asym_intf_ed_thresh=-70, obss_mit_bw=2 , obss_stats_cnt=8568, dynbw_init_reducebw_cnt=0, dynbw_resp_reducebw_cnt=0, dynbw_rxdata_reducebw_cnt=0,  obss_mmt_skip_cnt=0, obss_mmt_no_result_cnt= 2092, obss_mmt_intr_err_cnt=3
+[304660.997551]: LQM-WIFI-PHY:  gci_lst_inv_ctr=0, gci_lst_rst_ctr=10, gci_lst_sem_ctr=0, gci_lst_rb_st=385, gci_dbg01=0, gci_dbg02=0, gci_dbg03=0 , gci_dbg04=0, gci_dbg05=0, gci_lst_st_msk=65535, gci_inv_tx=0,  gci_inv_rx=0, gci_rst_tx= 140, gci_rst_rx=3
+[304660.997555]: LQM-WIFI-PHY:  gci_sem_ctr=0, gci_invstate=33409, gci_ctl2=3, gci_chan=57386, gci_cm=65535, gci_sc=0, gci_rst_sc=0, gci_prdc_rx=0 , gci_wk_rx=3, gci_rmac_rx=0, gci_tx_rx=0, asym_intf_stats=44,  asym_intf_ncal_crs_stat=0, ed_crsEn= 255, nvcfg0=2572, cal_suppressed_cntr_ed=0 
+[304660.997560]: LQM-WIFI-PHY:  sc_dccal_incc_cnt=0, sc_noisecal_incc_cnt=0, btc_mode=0, asym_intf_ant_noise_idx=0, asym_intf_pending_host_req_type=3,  asym_intf_ncal_crs_stat_idx=0, rxsense_noise_idx=0, rxsense_offset=0, asym_intf_tx_smartcca_cm=0, asym_intf_rx_noise_mit_cm=0,  asym_intf_avg_noise[0]= -98, asym_intf_latest_noise[0]=-98, asym_intf_avg_noise[1]=-98, asym_intf_latest_noise[1]=-98
+[304660.997566]: LQM-WIFI-PHY:  bad_txbaseidx_cnt[0]=0 curr_tssival[0]=1013 pwridx_init[0]=43 auxphystats[0]=13107 phystatsgaininfo[0]=34858 flexgaininfo_A[0]=544 crsmin_pwr_idx[0]=12, baseindxval[0]=42, crsmin_pwr[0]=-85, noise_level_inst[0]=-96, tgt_pwr[0]=55, estpwradj[0]=54, ed_threshold[0]=-74 bad_txbaseidx_cnt[1]=0 curr_tssival[1]=1017 pwridx_init[1]=40 auxphystats[1]=13107 phystatsgaininfo[1]=34862 flexgaininfo_A[1]=544 crsmin_pwr_idx[1]=12, baseindxval[1]=39, crsmin_pwr[1]=-84, noise_level_inst[1]=-97, tgt_pwr[1]=55, estpwradj[1]=53, ed_threshold[1]=-74 
+[304660.997575]: LQM-WIFI-PHY:  OBSS Info --> need_updt: 0, mit_status: 0, obss_mit_bw=2, last_rec_bw: 2, obss_last_read_time=304645 
+[304660.997578]: LQM-WIFI-PHY:  OBSS PWR Estimation Core0 --> LLL: 1  LLU: -94  LUL: -94  LUU: -94  ULL: 0  ULU: 0  UUL: 0  UUU: 0
+[304660.997594]: LQM-WIFI-PHY:  OBSS PWR Estimation Core1 --> LLL: 1  LLU: -94  LUL: -94  LUU: -94  ULL: 0  ULU: 0  UUL: 0  UUU: 0
+[304660.997598]: LQM-WIFI-PHY:  OBSS --> detection stats 0: 0  1: 0  2: 0  3: 0  4: 0  5: 0  6: 0  7: 0 
+[304660.997617]: 304660.997617 wlan0.A[134346] [ik] parsePHYEcounterV5@32668: Version = 5, ChanSpec=0xe02a, noise_req=10660, noise_crsbit=0, cal_counter=61, rxchain=15, chiptemp=30, femtemp=-50, btcx_mode=0,  ltecx_mode=0, weakest_rssi=-53, chan_switch_cnt=40, sc_dccal_incc_cnt=0
+[304660.997636]: 304660.997636 wlan0.A[134347] [ik] parsePHYEcounterV5@32673: gbd_ofdm_desense=17, gbd_bphy_desense=0, featureflag=64, crsmin_pwr_apply_cnt=11, preempt_status2=35186, ed_crs_status=0, measurehold=0, ocl_disable_reqs=0,  gci_rst_tx= 140, gci_rst_rx=3, gci_rst_sc=0, asym_intf_stats=44
+[304660.997645]: 304660.997645 wlan0.A[134348] [ik] parsePHYEcounterV5@32678: asym_intf_avg_noise[0]= -98, asym_intf_avg_noise[1]=-98, asym_intf_latest_noise[0]=-98, asym_intf_latest_noise[1]=-98, pwridx_init[0]=43, pwridx_init[1]=40,  baseindxval[0]=42, baseindxval[1]=39
+[304660.997652]: 304660.997652 wlan0.A[134349] [ik] parsePHYEcounterV5@32684: estpwradj[0]=54, estpwradj[1]=53, ed_threshold[0]=-74, ed_threshold[1]=-74, crsmin_pwr_idx[0]=12, crsmin_pwr_idx[1]=12,  crsmin_pwr[0]=-85, crsmin_pwr[1]=-84, noise_level_inst[0]=-96, noise_level_inst[1]=-97
+[304660.997663]: 304660.997663 wlan0.A[134350] [ik] updateChanSeqCommonStats@3470:P2P chan 36: dur 10912878, entry 61, crsglitch 219936, start 3689657, badplcp 2968584, badfcs 2738270, f0ov 0, f1ov 0, anyerr 2975572, resptout 5399, frmtooln 0, frmtoosh 2167368
+[304660.997688]: LQM-WIFI: (HighBand)  rxNotPrimary20s=0 ucodeLateDrop=0 rxInvalidUcodeLateWrongMACPHY=0 rxLate30us=0 rxLegacyFrmInvalid=0 txSifsErr=0 ooseqMacSusp=0
+[304661.002692]: LQM-WIFI: ccmpreplay=298 ccmpreplay_qosdata_nobapol_rxretry=0
+[304661.002783]: LQM-WIFI: Dynamic BW Stats: TxRTS [0,  0,  0,  0]   RxRTS [0,  0,  0,  0]   TxCTS [0,  0,  0,  0]   RxCTS [0,  0,  0,  0]
+[304661.002788]: LQM-WIFI: Dynamic BW Stats: TxMPDU [0,  0,  0,  0]   RxMPDU [0,  0,  0,  0]
+[304661.503165]: fq_getq_flow: scidx: 7, 129421917, flow: 0x99ab4749, iface: en0, grp: 0
+[304661.726102]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114908379
+[304661.726126]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:26 outputPackets:15 packetThreshold:50
+[304662.751193]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114909404
+[304662.751216]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:13 outputPackets:8 packetThreshold:50
+[304663.079794]: LQM-WIFI:  (HighBand) rxToss=0 rxLastTossRsn=0 rxNoFrag=0 rxNoCmplId=0 rxNoHaddr=0 rxMulti=0 rxUndec=0
+
+[304663.079821]: LQM-WIFI:  (HighBand) rxCrsGlitch=186 rxBphyCrsGlitch=0 rxStart=2684 rxBadPLCP=1518 rxBphyBadPLCP=0 rxBadFCS=1358 rxFifo0Ovfl=0 rxFifo1Ovfl=0 rx_nobuf=0 rxAnyErr=1526 rxResponseTimeout=2 rxNoDelim=0 rxFrmTooLong=0 rxFrmTooShort=1087
+
+[304663.079829]: LQM-WIFI: (HighBand) txRTSFrm=308 txRTSFail=0 rxCTSUcast=306 rxRTSUcast=0 txCTSFrm=2 txAMPDU=368 rxBACK=368 txPhyError=0 txAllFrm=1333 txMPDU=1087 txUcast=374 rxACKUcast=6 OfdmDesense=0 dB
+
+[304663.079835]: LQM-WIFI: (HighBand) rxBeaconMbss=50 rxBeaconObss=0 rxDataUcastMbss=927 rxMgmtUcastMbss=60 rxCNTRLUcast=680 txACKFrm=0 txBACK=529 ctxFifoFull=0 ctxFifo2Full=0 rxDataMcast=0 rxMgmtMcast=50
+
+[304663.079843]: LQM-WIFI: RX AMPDU (HighBand) rxAmpdu=529 txBACK(Ucode)=529 rxMpduInAmpdu=927 rxholes=0 rxdup=2 rxstuck=0 rxoow=0 rxoos=1 rxaddbareq=0 txaddbaresp=0 rxbar=0 txdelba=0 rxdelba=0 rxQueued=0 rxRetryNoBA=0
+
+[304663.079927]: LQM-WIFI: WME RX MPDUs (rxPER 0 %) in tids 0:1, 1:1552, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0
+
+[304663.079993]: 304663.079992 wlan0.A[134351] [ik] updateLinkQualityMetrics@709:For current session updated fRxDurMulticast 430020, fRxDurBroadcast 18680 
+[304663.084833]: LQM-WIFI:  WiFi Latency: TxLat-hist  [1(100 %) / 0(0 %) / 0(0 %) / 0(0 %)]   RxLat-hist  [0(0 %) / 0(0 %) / 0(0 %) / 0(0 %)]  intermittent-state = 0 
+
+[304663.084898]: LQM-WIFI-CT: rssi=-42(-43 -48) snr=35 bcn=48(48) txFrames=48 txRetry=0 txRate=433333 rxFrames=51 rxRetry=0 rxRate=433333 rxToss=0
+[304663.122234]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<58 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304663.122262]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304663.122274]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304663.122284]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304663.122382]: LQM-WiFi: BE : Count: 58 avgLatencyMs:1 maxLatencyMs:5 
+[304663.122396]: LQM-WiFi: BK : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[304663.122402]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[304663.122407]: LQM-WiFi: VO : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[304663.122418]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=0 NoACK=0 Expired=0 OtherErr=0
+
+[304663.122426]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304663.122442]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304663.122454]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304663.122466]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304663.776284]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114910429
+[304663.776305]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:1 outputPackets:2 packetThreshold:50
+[304663.778004]: LQM-WIFI-CT: ofdmDesense=0 bphyDesense=0 reason=0x0
+[304664.801170]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114911454
+[304664.801193]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:6 outputPackets:6 packetThreshold:50
+[304665.807623]: tx_flush:1338: disk3 xid 10651884 tx stats: # 674380 owait 38176 919us finish 678706 bar2 672379 f 653617 enter 1 fq 14 18 161us close 0us prep 172us flush 2449us
+[304665.826247]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114912479
+[304665.826270]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:27 outputPackets:31 packetThreshold:50
+[304665.826275]: com.apple.p2p: monitorInfraTraffic[8694] Infra Traffic type has changed from Bulk Data to Real Time. AWDL is Off
+[304665.826287]: com.apple.p2p: monitorInfraTraffic[8773]: Updating infra traffic state from Bulk Data to Real Time
+[304665.843924]: AppleSEPKeyStore:833:0: notification for handle: 0, state: 9, value: 0, flags: 0x0
+[304665.908746]: LQM-WIFI: WeightAvgLQM rssi=-41 snr=35 txRate=433333 rxRate=390000
+
+[304665.998780]: LQM-WIFI-PHY:  Version = 5, ChanSpec=0xe02a, phy_wdg=10667, noise_req=10664, noise_crsbit=0, noise_apply=6, cal_counter=61, slice=0
+[304665.998802]: LQM-WIFI-PHY:  rxchain=15, txchain=0, gbd_bphy_sleep_counter=0, gbd_ofdm_sleep_counter=5, gbd_ofdm_desense=17, gbd_bphy_desense=0 
+[304665.998807]: LQM-WIFI-PHY:  chiptemp=29, femtemp=-50, btcx_mode=0, ltecx_mode=0, weakest_rssi=-45, chan_switch_cnt=40, phycal_disable=0, featureflag=64
+[304665.998812]: LQM-WIFI-PHY:  deaf_count=0, noise_mmt_overdue=0, crsmin_pwr_apply_cnt=11, ed_crs_status=0, preempt_status1=0, preempt_status2=35191, preempt_status3=0, preempt_status4=0 , counter_noise_iqest_to=0, cca_stats_total_glitch=29, cca_stats_bphy_glitch=0, cca_stats_total_badplcp=248,  cca_stats_bphy_badplcp=0, cca_stats_mbsstime= 1000, cca_stats_ed_duration=0
+[304665.998821]: LQM-WIFI-PHY:  measurehold=0, rxsense_disable_req_ch=0, ocl_disable_reqs=0, interference_mode=9, power_mode=1, obss_last_read_time=304650, asym_intf_ed_thresh=-70, obss_mit_bw=2 , obss_stats_cnt=8571, dynbw_init_reducebw_cnt=0, dynbw_resp_reducebw_cnt=0, dynbw_rxdata_reducebw_cnt=0,  obss_mmt_skip_cnt=0, obss_mmt_no_result_cnt= 2093, obss_mmt_intr_err_cnt=3
+[304665.998829]: LQM-WIFI-PHY:  gci_lst_inv_ctr=0, gci_lst_rst_ctr=10, gci_lst_sem_ctr=0, gci_lst_rb_st=385, gci_dbg01=0, gci_dbg02=0, gci_dbg03=0 , gci_dbg04=0, gci_dbg05=0, gci_lst_st_msk=65535, gci_inv_tx=0,  gci_inv_rx=0, gci_rst_tx= 140, gci_rst_rx=3
+[304665.998835]: LQM-WIFI-PHY:  gci_sem_ctr=0, gci_invstate=33409, gci_ctl2=3, gci_chan=57386, gci_cm=65535, gci_sc=0, gci_rst_sc=0, gci_prdc_rx=0 , gci_wk_rx=3, gci_rmac_rx=0, gci_tx_rx=0, asym_intf_stats=44,  asym_intf_ncal_crs_stat=0, ed_crsEn= 255, nvcfg0=2572, cal_suppressed_cntr_ed=0 
+[304665.998841]: LQM-WIFI-PHY:  sc_dccal_incc_cnt=0, sc_noisecal_incc_cnt=0, btc_mode=0, asym_intf_ant_noise_idx=0, asym_intf_pending_host_req_type=3,  asym_intf_ncal_crs_stat_idx=0, rxsense_noise_idx=0, rxsense_offset=0, asym_intf_tx_smartcca_cm=0, asym_intf_rx_noise_mit_cm=0,  asym_intf_avg_noise[0]= -98, asym_intf_latest_noise[0]=-98, asym_intf_avg_noise[1]=-98, asym_intf_latest_noise[1]=-98
+[304665.998850]: LQM-WIFI-PHY:  bad_txbaseidx_cnt[0]=0 curr_tssival[0]=927 pwridx_init[0]=43 auxphystats[0]=13107 phystatsgaininfo[0]=34826 flexgaininfo_A[0]=544 crsmin_pwr_idx[0]=12, baseindxval[0]=42, crsmin_pwr[0]=-85, noise_level_inst[0]=-94, tgt_pwr[0]=55, estpwradj[0]=56, ed_threshold[0]=-74 bad_txbaseidx_cnt[1]=0 curr_tssival[1]=949 pwridx_init[1]=40 auxphystats[1]=8738 phystatsgaininfo[1]=34830 flexgaininfo_A[1]=544 crsmin_pwr_idx[1]=12, baseindxval[1]=40, crsmin_pwr[1]=-84, noise_level_inst[1]=-94, tgt_pwr[1]=55, estpwradj[1]=57, ed_threshold[1]=-74 
+[304665.998861]: LQM-WIFI-PHY:  OBSS Info --> need_updt: 0, mit_status: 0, obss_mit_bw=2, last_rec_bw: 2, obss_last_read_time=304650 
+[304665.998865]: LQM-WIFI-PHY:  OBSS PWR Estimation Core0 --> LLL: 1  LLU: -94  LUL: -94  LUU: -94  ULL: 0  ULU: 0  UUL: 0  UUU: 0
+[304665.998868]: LQM-WIFI-PHY:  OBSS PWR Estimation Core1 --> LLL: 1  LLU: -94  LUL: -94  LUU: -94  ULL: 0  ULU: 0  UUL: 0  UUU: 0
+[304665.998871]: LQM-WIFI-PHY:  OBSS --> detection stats 0: 0  1: 0  2: 0  3: 0  4: 0  5: 0  6: 0  7: 0 
+[304665.998889]: 304665.998888 wlan0.A[134352] [ik] parsePHYEcounterV5@32668: Version = 5, ChanSpec=0xe02a, noise_req=10664, noise_crsbit=0, cal_counter=61, rxchain=15, chiptemp=29, femtemp=-50, btcx_mode=0,  ltecx_mode=0, weakest_rssi=-45, chan_switch_cnt=40, sc_dccal_incc_cnt=0
+[304665.998912]: 304665.998912 wlan0.A[134353] [ik] parsePHYEcounterV5@32673: gbd_ofdm_desense=17, gbd_bphy_desense=0, featureflag=64, crsmin_pwr_apply_cnt=11, preempt_status2=35191, ed_crs_status=0, measurehold=0, ocl_disable_reqs=0,  gci_rst_tx= 140, gci_rst_rx=3, gci_rst_sc=0, asym_intf_stats=44
+[304665.998924]: 304665.998924 wlan0.A[134354] [ik] parsePHYEcounterV5@32678: asym_intf_avg_noise[0]= -98, asym_intf_avg_noise[1]=-98, asym_intf_latest_noise[0]=-98, asym_intf_latest_noise[1]=-98, pwridx_init[0]=43, pwridx_init[1]=40,  baseindxval[0]=42, baseindxval[1]=40
+[304665.998934]: 304665.998934 wlan0.A[134355] [ik] parsePHYEcounterV5@32684: estpwradj[0]=56, estpwradj[1]=57, ed_threshold[0]=-74, ed_threshold[1]=-74, crsmin_pwr_idx[0]=12, crsmin_pwr_idx[1]=12,  crsmin_pwr[0]=-85, crsmin_pwr[1]=-84, noise_level_inst[0]=-94, noise_level_inst[1]=-94
+[304665.998948]: 304665.998948 wlan0.A[134356] [ik] updateChanSeqCommonStats@3470:P2P chan 36: dur 10917879, entry 61, crsglitch 220142, start 3690515, badplcp 2969527, badfcs 2738993, f0ov 0, f1ov 0, anyerr 2976519, resptout 5399, frmtooln 0, frmtoosh 2167948
+[304665.998978]: LQM-WIFI: (HighBand)  rxNotPrimary20s=1 ucodeLateDrop=0 rxInvalidUcodeLateWrongMACPHY=0 rxLate30us=0 rxLegacyFrmInvalid=0 txSifsErr=0 ooseqMacSusp=0
+[304666.021948]: 304666.021948 wlan0.A[134357] [ik] updateChanSeqCommonStats@3470:P2P chan 36: dur 10917903, entry 61, crsglitch 220142, start 3690515, badplcp 2969527, badfcs 2738993, f0ov 0, f1ov 0, anyerr 2976519, resptout 5399, frmtooln 0, frmtoosh 2167948
+[304666.027206]: LQM-WIFI: ccmpreplay=298 ccmpreplay_qosdata_nobapol_rxretry=0
+[304666.027300]: LQM-WIFI: slow-wifi featureEnabled:1 Channel:36 chWidth:80 phyMode:128 nss:2 RSSI:-41 CCA:8 SNR:35 offChanDurUS:0 TVPMDurMS:0 concurrentIntDurMS:0 randomMac:0 dataStallScore:50 networkScore:0
+[304666.027324]: LQM-WIFI: slow-wifi btAntDurMS:0 btESCO:0/0 rc1CoexDurMS:0 rc2CoexDurMS:0 lteCoexDurMS:0 totalNonWLANDurMS:0 infraDutyCycle:100 lastScanType:0
+[304666.027333]: LQM-WIFI: slow-wifi availWLANDurMS:5067 availTxDurMS:4325 realTxDurMS:64 availRxDurMS:5003 realRxDurMS:742 measurementDurMS:5067 lastScanDurMS:0
+[304666.027340]: LQM-WIFI: slow-wifi Tx tput (i/p:0 o/p:0 expected:0)Mbps queueFullDurMS:0 avgLatencyMS:1 maxLatencyMS:5 phyRate(mode:433 avg:430 expected:892) phyRateTputRatio:0
+[304666.027347]: LQM-WIFI: slow-wifi Tx AMPDUDensity(actual:1 expectedAtQueueFull:64) retries:0 fails:0 fwFrames:417 hostFrames:0 hostFails:0 ctlPkts:2(2125) symptomsFails:0
+[304666.027354]: LQM-WIFI: slow-wifi TxLim[1] outputBelowExpected:0 outputBelowInput:0 lowTxFrameCount:1 queueFull:0 highLatency:0 baselineNotAllowed:0 highSymptomsFails:0
+[304666.027360]: LQM-WIFI: slow-wifi TxLim[1] lowPhyRate:0 lowPhyRateTputRatio:0 highPER:0 highRetries:0 lowTxAMPDUDensity:1 lowCCA:1 activeCoex:0 hostFWMismatch:1
+[304666.027366]: LQM-WIFI: slow-wifi Rx tput:0 Mbps baseline:0 Mbps overflows:0 fcsFail:2081 plcpBad:2461 goodPlcps:3542 crsGlitches:392 fwFrames:2178 ucastFWFrames:959 hostFrames:0 AmpduDUP:0 APTxDataStallPct:0 rxAmpduTxBaMismatch:0
+[304666.027374]: LQM-WIFI: slow-wifi Rx ucast(replays:0 decryptErrs:0) mcast(replays:0 decryptErrs:0) phyRate(mode:433 avg:426 expected:892) dups:2 retries:0 phyRateTputRatio:0
+[304666.027381]: LQM-WIFI: slow-wifi RxLim[1] highRetries:0 highPhyPER:0 highDataPER:0 highOverflows:0 highRSSI:1 lowPhyRate:0 lowPhyRateTputRatio:0 
+[304666.027386]: LQM-WIFI: slow-wifi RxLim[1] highFCSErrors:0 highDups:0 highReplays:0 highDecryptErrors:0 highMCDecryptErrors:0 lowRxFrameCount:1
+[304666.027392]: LQM-WIFI: UI Entry curState:Idle prevState:PendingIP event:ChannelQualityUpdate data:1
+[304666.027400]: LQM-WIFI: UI Exit curState:Idle prevState:PendingIP
+[304666.027404]: LQM-WIFI: slow-wifi Host and FW packet count mismatchLQM-WIFI: slow-wifi Host and FW packet count mismatchLQM-WIFI: Dynamic BW Stats: TxRTS [0,  0,  0,  0]   RxRTS [0,  0,  0,  0]   TxCTS [0,  0,  0,  0]   RxCTS [0,  0,  0,  0]
+[304666.027453]: LQM-WIFI: Dynamic BW Stats: TxMPDU [0,  0,  0,  0]   RxMPDU [0,  0,  0,  0]
+[304666.170442]: process_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashprocess_is_plugin_host: running binary "zsh" in keys-off mode due to identity: com.apple.zshprocess_is_plugin_host: running binary "zsh" in keys-off mode due to identity: com.apple.zshprocess_is_plugin_host: running binary "zsh" in keys-off mode due to identity: com.apple.zshprocess_is_plugin_host: running binary "zsh" in keys-off mode due to identity: com.apple.zshprocess_is_plugin_host: running binary "zsh" in keys-off mode due to identity: com.apple.zshcfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304666.365699]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304666.365752]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304666.365756]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304666.489014]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304666.489045]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304666.537465]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304666.537485]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304666.851441]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114913504
+[304666.851465]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:55 outputPackets:52 packetThreshold:50
+[304666.926830]: tx_flush:1338: disk3 xid 10651904 tx stats: # 674400 owait 38176 919us finish 678726 bar2 672399 f 653637 enter 1 fq 11 12 104us close 0us prep 114us flush 2396us
+[304667.876526]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114914529
+[304667.876549]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:46 outputPackets:41 packetThreshold:50
+[304668.093710]: LQM-WIFI:  (HighBand) rxToss=0 rxLastTossRsn=0 rxNoFrag=0 rxNoCmplId=0 rxNoHaddr=0 rxMulti=0 rxUndec=0
+
+[304668.093731]: LQM-WIFI:  (HighBand) rxCrsGlitch=206 rxBphyCrsGlitch=0 rxStart=858 rxBadPLCP=943 rxBphyBadPLCP=0 rxBadFCS=723 rxFifo0Ovfl=0 rxFifo1Ovfl=0 rx_nobuf=0 rxAnyErr=947 rxResponseTimeout=0 rxNoDelim=0 rxFrmTooLong=0 rxFrmTooShort=580
+
+[304668.093759]: LQM-WIFI: (HighBand) txRTSFrm=7 txRTSFail=0 rxCTSUcast=7 rxRTSUcast=0 txCTSFrm=0 txAMPDU=26 rxBACK=26 txPhyError=0 txAllFrm=111 txMPDU=580 txUcast=35 rxACKUcast=9 OfdmDesense=0 dB
+
+[304668.093769]: LQM-WIFI: (HighBand) rxBeaconMbss=40 rxBeaconObss=0 rxDataUcastMbss=32 rxMgmtUcastMbss=19 rxCNTRLUcast=42 txACKFrm=1 txBACK=30 ctxFifoFull=0 ctxFifo2Full=0 rxDataMcast=0 rxMgmtMcast=40
+
+[304668.093779]: LQM-WIFI: RX AMPDU (HighBand) rxAmpdu=54 txBACK(Ucode)=30 rxMpduInAmpdu=57 rxholes=0 rxdup=0 rxstuck=0 rxoow=0 rxoos=0 rxaddbareq=0 txaddbaresp=0 rxbar=0 txdelba=0 rxdelba=0 rxQueued=0 rxRetryNoBA=0
+
+[304668.093845]: LQM-WIFI: WME RX MPDUs (rxPER 0 %) in tids 0:2, 1:66, 2:0, 3:0, 4:1, 5:0, 6:0, 7:0
+
+[304668.093916]: 304668.093916 wlan0.A[134358] [ik] updateLinkQualityMetrics@709:For current session updated fRxDurMulticast 430020, fRxDurBroadcast 18680 
+[304668.098796]: LQM-WIFI:  WiFi Latency: TxLat-hist  [1(100 %) / 0(0 %) / 0(0 %) / 0(0 %)]   RxLat-hist  [0(0 %) / 0(0 %) / 0(0 %) / 0(0 %)]  intermittent-state = 0 
+
+[304668.098880]: LQM-WIFI-CT: rssi=-41(-42 -44) snr=34 bcn=50(50) txFrames=97 txRetry=0 txRate=433333 rxFrames=113 rxRetry=0 rxRate=390000 rxToss=0
+[304668.122541]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<128 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304668.122558]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304668.122563]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304668.122577]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<3 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304668.122636]: LQM-WiFi: BE : Count: 128 avgLatencyMs:1 maxLatencyMs:5 
+[304668.122646]: LQM-WiFi: BK : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[304668.122648]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[304668.122650]: LQM-WiFi: VO : Count: 3 avgLatencyMs:1 maxLatencyMs:1 
+[304668.122656]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=3 NoACK=0 Expired=0 OtherErr=0
+
+[304668.122661]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304668.122668]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304668.122675]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304668.122681]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304668.157593]: [System Event] [7312035782248] [INFO] [Subsystem: nvram] [Event: write] battery-health as data with size 0x17b
+[304668.779031]: LQM-WIFI-CT: ofdmDesense=0 bphyDesense=0 reason=0x0
+[304668.901163]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114915554
+[304668.901182]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:29 outputPackets:31 packetThreshold:50
+[304669.926230]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114916579
+[304669.926248]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:13 outputPackets:14 packetThreshold:50
+[304669.926261]: com.apple.p2p: monitorInfraTraffic[8694] Infra Traffic type has changed from Real Time to Bulk Data. AWDL is Off
+[304669.926274]: com.apple.p2p: monitorInfraTraffic[8773]: Updating infra traffic state from Real Time to Bulk Data
+[304670.932479]: 1 duplicate report for Sandbox: ctkd(39332) deny(1) mach-lookup com.apple.DiskArbitration.diskarbitrationdSandbox: ContextStoreAgent(38385) allow file-read-data /Applications/Microsoft Edge.appSandbox: ContextStoreAgent(38385) allow file-read-data /Applications/Microsoft Edge.app/ContentsSandbox: ContextStoreAgent(38385) allow file-read-data /Applications/Microsoft Edge.app/Contents/Info.plistSandbox: ContextStoreAgent(38385) allow file-read-data /Applications/Microsoft Edge.appSandbox: ContextStoreAgent(38385) allow file-read-data /Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge1 duplicate report for Sandbox: ContextStoreAgent(38385) allow file-read-data /Applications/Microsoft Edge.app/Contents/MacOS/Microsoft EdgeSandbox: ContextStoreAgent(38385) allow file-read-xattr /Applications/Microsoft Edge.app/Contents/MacOS/Microsoft EdgeSandbox: ContextStoreAgent(38385) allow file-read-data /Applications/Microsoft Edge.app/Contents/Info.plistcom.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114917604
+[304670.951319]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:4 outputPackets:4 packetThreshold:50
+[304671.026040]: LQM-WIFI-PHY:  Version = 5, ChanSpec=0xe02a, phy_wdg=10672, noise_req=10669, noise_crsbit=0, noise_apply=6, cal_counter=61, slice=0
+[304671.026053]: LQM-WIFI-PHY:  rxchain=15, txchain=0, gbd_bphy_sleep_counter=0, gbd_ofdm_sleep_counter=10, gbd_ofdm_desense=17, gbd_bphy_desense=0 
+[304671.026056]: LQM-WIFI-PHY:  chiptemp=29, femtemp=-50, btcx_mode=0, ltecx_mode=0, weakest_rssi=-52, chan_switch_cnt=40, phycal_disable=0, featureflag=64
+[304671.026059]: LQM-WIFI-PHY:  deaf_count=0, noise_mmt_overdue=0, crsmin_pwr_apply_cnt=11, ed_crs_status=0, preempt_status1=0, preempt_status2=35216, preempt_status3=0, preempt_status4=0 , counter_noise_iqest_to=0, cca_stats_total_glitch=69, cca_stats_bphy_glitch=0, cca_stats_total_badplcp=208,  cca_stats_bphy_badplcp=0, cca_stats_mbsstime= 1000, cca_stats_ed_duration=0
+[304671.026064]: LQM-WIFI-PHY:  measurehold=0, rxsense_disable_req_ch=0, ocl_disable_reqs=0, interference_mode=9, power_mode=1, obss_last_read_time=304655, asym_intf_ed_thresh=-70, obss_mit_bw=2 , obss_stats_cnt=8574, dynbw_init_reducebw_cnt=0, dynbw_resp_reducebw_cnt=0, dynbw_rxdata_reducebw_cnt=0,  obss_mmt_skip_cnt=0, obss_mmt_no_result_cnt= 2095, obss_mmt_intr_err_cnt=3
+[304671.026070]: LQM-WIFI-PHY:  gci_lst_inv_ctr=0, gci_lst_rst_ctr=10, gci_lst_sem_ctr=0, gci_lst_rb_st=385, gci_dbg01=0, gci_dbg02=0, gci_dbg03=0 , gci_dbg04=0, gci_dbg05=0, gci_lst_st_msk=65535, gci_inv_tx=0,  gci_inv_rx=0, gci_rst_tx= 140, gci_rst_rx=3
+[304671.026074]: LQM-WIFI-PHY:  gci_sem_ctr=0, gci_invstate=33409, gci_ctl2=3, gci_chan=57386, gci_cm=65535, gci_sc=0, gci_rst_sc=0, gci_prdc_rx=0 , gci_wk_rx=3, gci_rmac_rx=0, gci_tx_rx=0, asym_intf_stats=44,  asym_intf_ncal_crs_stat=0, ed_crsEn= 255, nvcfg0=2572, cal_suppressed_cntr_ed=0 
+[304671.026078]: LQM-WIFI-PHY:  sc_dccal_incc_cnt=0, sc_noisecal_incc_cnt=0, btc_mode=0, asym_intf_ant_noise_idx=0, asym_intf_pending_host_req_type=3,  asym_intf_ncal_crs_stat_idx=0, rxsense_noise_idx=0, rxsense_offset=0, asym_intf_tx_smartcca_cm=0, asym_intf_rx_noise_mit_cm=0,  asym_intf_avg_noise[0]= -98, asym_intf_latest_noise[0]=-98, asym_intf_avg_noise[1]=-98, asym_intf_latest_noise[1]=-98
+[304671.026083]: LQM-WIFI-PHY:  bad_txbaseidx_cnt[0]=0 curr_tssival[0]=927 pwridx_init[0]=43 auxphystats[0]=13107 phystatsgaininfo[0]=34858 flexgaininfo_A[0]=544 crsmin_pwr_idx[0]=12, baseindxval[0]=42, crsmin_pwr[0]=-85, noise_level_inst[0]=-94, tgt_pwr[0]=55, estpwradj[0]=56, ed_threshold[0]=-74 bad_txbaseidx_cnt[1]=0 curr_tssival[1]=948 pwridx_init[1]=40 auxphystats[1]=13107 phystatsgaininfo[1]=34834 flexgaininfo_A[1]=608 crsmin_pwr_idx[1]=12, baseindxval[1]=40, crsmin_pwr[1]=-84, noise_level_inst[1]=-95, tgt_pwr[1]=55, estpwradj[1]=57, ed_threshold[1]=-74 
+[304671.026089]: LQM-WIFI-PHY:  OBSS Info --> need_updt: 0, mit_status: 0, obss_mit_bw=2, last_rec_bw: 2, obss_last_read_time=304655 
+[304671.026091]: LQM-WIFI-PHY:  OBSS PWR Estimation Core0 --> LLL: 1  LLU: -94  LUL: -94  LUU: -94  ULL: 0  ULU: 0  UUL: 0  UUU: 0
+[304671.026093]: LQM-WIFI-PHY:  OBSS PWR Estimation Core1 --> LLL: 1  LLU: -94  LUL: -94  LUU: -94  ULL: 0  ULU: 0  UUL: 0  UUU: 0
+[304671.026095]: LQM-WIFI-PHY:  OBSS --> detection stats 0: 0  1: 0  2: 0  3: 0  4: 0  5: 0  6: 0  7: 0 
+[304671.026105]: 304671.026105 wlan0.A[134359] [ik] parsePHYEcounterV5@32668: Version = 5, ChanSpec=0xe02a, noise_req=10669, noise_crsbit=0, cal_counter=61, rxchain=15, chiptemp=29, femtemp=-50, btcx_mode=0,  ltecx_mode=0, weakest_rssi=-52, chan_switch_cnt=40, sc_dccal_incc_cnt=0
+[304671.026120]: 304671.026120 wlan0.A[134360] [ik] parsePHYEcounterV5@32673: gbd_ofdm_desense=17, gbd_bphy_desense=0, featureflag=64, crsmin_pwr_apply_cnt=11, preempt_status2=35216, ed_crs_status=0, measurehold=0, ocl_disable_reqs=0,  gci_rst_tx= 140, gci_rst_rx=3, gci_rst_sc=0, asym_intf_stats=44
+[304671.026127]: 304671.026127 wlan0.A[134361] [ik] parsePHYEcounterV5@32678: asym_intf_avg_noise[0]= -98, asym_intf_avg_noise[1]=-98, asym_intf_latest_noise[0]=-98, asym_intf_latest_noise[1]=-98, pwridx_init[0]=43, pwridx_init[1]=40,  baseindxval[0]=42, baseindxval[1]=40
+[304671.026139]: 304671.026139 wlan0.A[134362] [ik] parsePHYEcounterV5@32684: estpwradj[0]=56, estpwradj[1]=57, ed_threshold[0]=-74, ed_threshold[1]=-74, crsmin_pwr_idx[0]=12, crsmin_pwr_idx[1]=12,  crsmin_pwr[0]=-85, crsmin_pwr[1]=-84, noise_level_inst[0]=-94, noise_level_inst[1]=-95
+[304671.026147]: 304671.026147 wlan0.A[134363] [ik] updateChanSeqCommonStats@3470:P2P chan 36: dur 10922907, entry 61, crsglitch 220521, start 3691819, badplcp 2970643, badfcs 2739845, f0ov 0, f1ov 0, anyerr 2977650, resptout 5399, frmtooln 0, frmtoosh 2168650
+[304671.026162]: LQM-WIFI: (HighBand)  rxNotPrimary20s=4 ucodeLateDrop=0 rxInvalidUcodeLateWrongMACPHY=0 rxLate30us=0 rxLegacyFrmInvalid=0 txSifsErr=0 ooseqMacSusp=0
+[304671.032292]: LQM-WIFI: ccmpreplay=298 ccmpreplay_qosdata_nobapol_rxretry=0
+[304671.032342]: LQM-WIFI: Dynamic BW Stats: TxRTS [0,  0,  0,  0]   RxRTS [0,  0,  0,  0]   TxCTS [0,  0,  0,  0]   RxCTS [0,  0,  0,  0]
+[304671.032345]: LQM-WIFI: Dynamic BW Stats: TxMPDU [0,  0,  0,  0]   RxMPDU [0,  0,  0,  0]
+[304671.084496]: 304671.084496 wlan0.A[134364] [ik] updateChanSeqCommonStats@3470:P2P chan 36: dur 10922965, entry 61, crsglitch 220521, start 3691819, badplcp 2970643, badfcs 2739845, f0ov 0, f1ov 0, anyerr 2977650, resptout 5399, frmtooln 0, frmtoosh 2168650
+[304671.090804]: LQM-WIFI: ccmpreplay=298 ccmpreplay_qosdata_nobapol_rxretry=0
+[304671.932794]: AppleAVD: getCoreLoadScore(): coreIndex: 0 - loadScore: 75202560 - activeLoadRate: 0 - totalClientLoadRate: 250675200AppleAVD: newClientCoreAssignment(): clientID 1 was assigned to core: 0 - loadBalanceMode: 2+ Speaker::startIOEngineGated()+ Speaker startTransport
+[304671.937410]: Speaker: streaming audio
+[304671.937471]: AppleAVD: setClientInfo(): clientID: 1 - codecType: 3 - isTestApp: 0 - width: 1920 - height: 1088 - chromaFormat: 0 - loadValue: 8355840- Speaker startTransport ret=success(0)- Speaker::startIOEngineGated() ret=success(0)AppleAVD: INFO: logPerfStats(): avdIdx 0, Percentage of time spent at Vmin: 99%, Vnom: 0%, Vmax: 0%, histogram \M-b\M^V\M^H\M-b\M^V\M^A\M-b\M^V\M^AAppleAVD: INFO: logUserClientStats(): avdIdx 0, UserClientCount 2, 2, 2, 2, 2, histogram \M-b\M^V\M^A\M-b\M^V\M^A\M-b\M^V\M^A\M-b\M^V\M^A\M-b\M^V\M^Acom.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114918629
+[304671.976060]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:23 outputPackets:29 packetThreshold:50
+[304671.976064]: com.apple.p2p: monitorInfraTraffic[8694] Infra Traffic type has changed from Bulk Data to Real Time. AWDL is Off
+[304671.976066]: com.apple.p2p: monitorInfraTraffic[8773]: Updating infra traffic state from Bulk Data to Real Time
+[304672.288998]: Speaker: Zero time stamp captured ( 15840, 2758054607953)
+[304673.001127]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114919654
+[304673.001143]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:3 outputPackets:4 packetThreshold:50
+[304673.001150]: com.apple.p2p: monitorInfraTraffic[8694] Infra Traffic type has changed from Real Time to Bulk Data. AWDL is Off
+[304673.001153]: com.apple.p2p: monitorInfraTraffic[8773]: Updating infra traffic state from Real Time to Bulk Data
+[304673.105719]: LQM-WIFI:  (HighBand) rxToss=0 rxLastTossRsn=0 rxNoFrag=0 rxNoCmplId=0 rxNoHaddr=0 rxMulti=0 rxUndec=0
+
+[304673.105754]: LQM-WIFI:  (HighBand) rxCrsGlitch=379 rxBphyCrsGlitch=0 rxStart=1304 rxBadPLCP=1116 rxBphyBadPLCP=0 rxBadFCS=852 rxFifo0Ovfl=0 rxFifo1Ovfl=0 rx_nobuf=0 rxAnyErr=1131 rxResponseTimeout=0 rxNoDelim=0 rxFrmTooLong=0 rxFrmTooShort=702
+
+[304673.105759]: LQM-WIFI: (HighBand) txRTSFrm=71 txRTSFail=0 rxCTSUcast=71 rxRTSUcast=0 txCTSFrm=0 txAMPDU=126 rxBACK=126 txPhyError=0 txAllFrm=445 txMPDU=702 txUcast=132 rxACKUcast=6 OfdmDesense=0 dB
+
+[304673.105762]: LQM-WIFI: (HighBand) rxBeaconMbss=50 rxBeaconObss=0 rxDataUcastMbss=142 rxMgmtUcastMbss=54 rxCNTRLUcast=203 txACKFrm=0 txBACK=134 ctxFifoFull=0 ctxFifo2Full=0 rxDataMcast=0 rxMgmtMcast=50
+
+[304673.105766]: LQM-WIFI: RX AMPDU (HighBand) rxAmpdu=114 txBACK(Ucode)=134 rxMpduInAmpdu=121 rxholes=0 rxdup=0 rxstuck=0 rxoow=0 rxoos=0 rxaddbareq=0 txaddbaresp=0 rxbar=0 txdelba=0 rxdelba=0 rxQueued=0 rxRetryNoBA=0
+
+[304673.105806]: LQM-WIFI: WME RX MPDUs (rxPER 0 %) in tids 0:3, 1:140, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0
+
+[304673.105866]: 304673.105866 wlan0.A[134365] [ik] updateLinkQualityMetrics@709:For current session updated fRxDurMulticast 430020, fRxDurBroadcast 18680 
+[304673.109534]: LQM-WIFI:  WiFi Latency: TxLat-hist  [1(100 %) / 0(0 %) / 0(0 %) / 0(0 %)]   RxLat-hist  [0(0 %) / 0(0 %) / 0(0 %) / 0(0 %)]  intermittent-state = 0 
+
+[304673.109580]: LQM-WIFI-CT: rssi=-42(-42 -48) snr=34 bcn=49(49) txFrames=60 txRetry=1 txRate=433333 rxFrames=58 rxRetry=0 rxRate=390000 rxToss=0
+[304673.122755]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<70 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304673.122777]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<12 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304673.122782]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304673.122787]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304673.122842]: LQM-WiFi: BE : Count: 70 avgLatencyMs:1 maxLatencyMs:6 
+[304673.122851]: LQM-WiFi: BK : Count: 12 avgLatencyMs:1 maxLatencyMs:2 
+[304673.122854]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[304673.122857]: LQM-WiFi: VO : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[304673.122863]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=0 NoACK=0 Expired=0 OtherErr=0
+
+[304673.122868]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304673.122876]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304673.122883]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304673.122890]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304673.381275]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304673.381286]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304673.382407]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304673.382416]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304673.588432]: LQM-WIFI: WeightAvgLQM rssi=-44 snr=35 txRate=433333 rxRate=390000
+
+[304673.588472]: LQM-WIFI: slow-wifi featureEnabled:1 Channel:36 chWidth:80 phyMode:128 nss:2 RSSI:-44 CCA:8 SNR:35 offChanDurUS:0 TVPMDurMS:0 concurrentIntDurMS:0 randomMac:0 dataStallScore:50 networkScore:0
+[304673.588480]: LQM-WIFI: slow-wifi btAntDurMS:0 btESCO:0/0 rc1CoexDurMS:0 rc2CoexDurMS:0 lteCoexDurMS:0 totalNonWLANDurMS:0 infraDutyCycle:100 lastScanType:0
+[304673.588483]: LQM-WIFI: slow-wifi availWLANDurMS:7560 availTxDurMS:7262 realTxDurMS:21 availRxDurMS:7539 realRxDurMS:298 measurementDurMS:7560 lastScanDurMS:0
+[304673.588506]: LQM-WIFI: slow-wifi Tx tput (i/p:0 o/p:0 expected:0)Mbps queueFullDurMS:0 avgLatencyMS:1 maxLatencyMS:6 phyRate(mode:433 avg:430 expected:892) phyRateTputRatio:0
+[304673.588510]: LQM-WIFI: slow-wifi Tx AMPDUDensity(actual:1 expectedAtQueueFull:64) retries:1 fails:0 fwFrames:108 hostFrames:0 hostFails:0 ctlPkts:1(2126) symptomsFails:0
+[304673.588513]: LQM-WIFI: slow-wifi TxLim[1] outputBelowExpected:0 outputBelowInput:0 lowTxFrameCount:1 queueFull:0 highLatency:0 baselineNotAllowed:0 highSymptomsFails:0
+[304673.588516]: LQM-WIFI: slow-wifi TxLim[1] lowPhyRate:0 lowPhyRateTputRatio:0 highPER:0 highRetries:0 lowTxAMPDUDensity:1 lowCCA:1 activeCoex:0 hostFWMismatch:1
+[304673.588518]: LQM-WIFI: slow-wifi Rx tput:0 Mbps baseline:0 Mbps overflows:0 fcsFail:852 plcpBad:1116 goodPlcps:1304 crsGlitches:379 fwFrames:526 ucastFWFrames:142 hostFrames:0 AmpduDUP:0 APTxDataStallPct:0 rxAmpduTxBaMismatch:0
+[304673.588522]: LQM-WIFI: slow-wifi Rx ucast(replays:0 decryptErrs:0) mcast(replays:0 decryptErrs:0) phyRate(mode:433 avg:416 expected:892) dups:0 retries:0 phyRateTputRatio:0
+[304673.588524]: LQM-WIFI: slow-wifi RxLim[1] highRetries:0 highPhyPER:0 highDataPER:0 highOverflows:0 highRSSI:1 lowPhyRate:0 lowPhyRateTputRatio:0 
+[304673.588526]: LQM-WIFI: slow-wifi RxLim[1] highFCSErrors:0 highDups:0 highReplays:0 highDecryptErrors:0 highMCDecryptErrors:0 lowRxFrameCount:1
+[304673.588529]: LQM-WIFI: UI Entry curState:Idle prevState:PendingIP event:ChannelQualityUpdate data:1
+[304673.588532]: LQM-WIFI: UI Exit curState:Idle prevState:PendingIP
+[304673.588533]: LQM-WIFI: slow-wifi Host and FW packet count mismatchLQM-WIFI: slow-wifi Host and FW packet count mismatchLQM-WIFI-CT: ofdmDesense=0 bphyDesense=0 reason=0x0
+[304674.026201]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114920679
+[304674.026223]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:822 outputPackets:176 packetThreshold:50
+[304674.026227]: com.apple.p2p: monitorInfraTraffic[8694] Infra Traffic type has changed from Bulk Data to Real Time. AWDL is Off
+[304674.026230]: com.apple.p2p: monitorInfraTraffic[8773]: Updating infra traffic state from Bulk Data to Real Time
+[304674.428612]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304674.428628]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304674.428735]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304674.428742]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304674.558902]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304674.558918]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304674.589053]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304674.589090]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304675.051159]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114921704
+[304675.051181]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:460 outputPackets:102 packetThreshold:50
+[304676.075475]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114922728
+[304676.075494]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:11 outputPackets:8 packetThreshold:50
+[304676.075502]: com.apple.p2p: monitorInfraTraffic[8694] Infra Traffic type has changed from Real Time to Bulk Data. AWDL is Off
+[304676.075506]: com.apple.p2p: monitorInfraTraffic[8773]: Updating infra traffic state from Real Time to Bulk Data
+[304676.081726]: LQM-WIFI-PHY:  Version = 5, ChanSpec=0xe02a, phy_wdg=10677, noise_req=10674, noise_crsbit=0, noise_apply=6, cal_counter=61, slice=0
+[304676.081746]: LQM-WIFI-PHY:  rxchain=15, txchain=0, gbd_bphy_sleep_counter=0, gbd_ofdm_sleep_counter=1, gbd_ofdm_desense=16, gbd_bphy_desense=0 
+[304676.081749]: LQM-WIFI-PHY:  chiptemp=30, femtemp=-50, btcx_mode=0, ltecx_mode=0, weakest_rssi=-47, chan_switch_cnt=40, phycal_disable=0, featureflag=64
+[304676.081753]: LQM-WIFI-PHY:  deaf_count=0, noise_mmt_overdue=0, crsmin_pwr_apply_cnt=11, ed_crs_status=0, preempt_status1=0, preempt_status2=35249, preempt_status3=0, preempt_status4=0 , counter_noise_iqest_to=0, cca_stats_total_glitch=36, cca_stats_bphy_glitch=0, cca_stats_total_badplcp=325,  cca_stats_bphy_badplcp=0, cca_stats_mbsstime= 1000, cca_stats_ed_duration=3
+[304676.081758]: LQM-WIFI-PHY:  measurehold=0, rxsense_disable_req_ch=0, ocl_disable_reqs=0, interference_mode=9, power_mode=1, obss_last_read_time=304661, asym_intf_ed_thresh=-70, obss_mit_bw=2 , obss_stats_cnt=8578, dynbw_init_reducebw_cnt=0, dynbw_resp_reducebw_cnt=0, dynbw_rxdata_reducebw_cnt=0,  obss_mmt_skip_cnt=0, obss_mmt_no_result_cnt= 2097, obss_mmt_intr_err_cnt=3
+[304676.081764]: LQM-WIFI-PHY:  gci_lst_inv_ctr=0, gci_lst_rst_ctr=10, gci_lst_sem_ctr=0, gci_lst_rb_st=385, gci_dbg01=0, gci_dbg02=0, gci_dbg03=0 , gci_dbg04=0, gci_dbg05=0, gci_lst_st_msk=65535, gci_inv_tx=0,  gci_inv_rx=0, gci_rst_tx= 140, gci_rst_rx=3
+[304676.081768]: LQM-WIFI-PHY:  gci_sem_ctr=0, gci_invstate=33409, gci_ctl2=3, gci_chan=57386, gci_cm=65535, gci_sc=0, gci_rst_sc=0, gci_prdc_rx=0 , gci_wk_rx=3, gci_rmac_rx=0, gci_tx_rx=0, asym_intf_stats=44,  asym_intf_ncal_crs_stat=0, ed_crsEn= 255, nvcfg0=2572, cal_suppressed_cntr_ed=0 
+[304676.081785]: LQM-WIFI-PHY:  sc_dccal_incc_cnt=0, sc_noisecal_incc_cnt=0, btc_mode=0, asym_intf_ant_noise_idx=0, asym_intf_pending_host_req_type=3,  asym_intf_ncal_crs_stat_idx=0, rxsense_noise_idx=0, rxsense_offset=0, asym_intf_tx_smartcca_cm=0, asym_intf_rx_noise_mit_cm=0,  asym_intf_avg_noise[0]= -98, asym_intf_latest_noise[0]=-98, asym_intf_avg_noise[1]=-98, asym_intf_latest_noise[1]=-98
+[304676.081792]: LQM-WIFI-PHY:  bad_txbaseidx_cnt[0]=0 curr_tssival[0]=1006 pwridx_init[0]=43 auxphystats[0]=13107 phystatsgaininfo[0]=34830 flexgaininfo_A[0]=544 crsmin_pwr_idx[0]=11, baseindxval[0]=42, crsmin_pwr[0]=-85, noise_level_inst[0]=-96, tgt_pwr[0]=55, estpwradj[0]=53, ed_threshold[0]=-74 bad_txbaseidx_cnt[1]=0 curr_tssival[1]=1012 pwridx_init[1]=40 auxphystats[1]=13107 phystatsgaininfo[1]=34830 flexgaininfo_A[1]=544 crsmin_pwr_idx[1]=11, baseindxval[1]=40, crsmin_pwr[1]=-84, noise_level_inst[1]=-95, tgt_pwr[1]=55, estpwradj[1]=53, ed_threshold[1]=-74 
+[304676.081800]: LQM-WIFI-PHY:  OBSS Info --> need_updt: 0, mit_status: 0, obss_mit_bw=2, last_rec_bw: 2, obss_last_read_time=304661 
+[304676.081802]: LQM-WIFI-PHY:  OBSS PWR Estimation Core0 --> LLL: 1  LLU: -94  LUL: -94  LUU: -94  ULL: 0  ULU: 0  UUL: 0  UUU: 0
+[304676.081805]: LQM-WIFI-PHY:  OBSS PWR Estimation Core1 --> LLL: 1  LLU: -94  LUL: -94  LUU: -94  ULL: 0  ULU: 0  UUL: 0  UUU: 0
+[304676.081807]: LQM-WIFI-PHY:  OBSS --> detection stats 0: 0  1: 0  2: 0  3: 0  4: 0  5: 0  6: 0  7: 0 
+[304676.081826]: 304676.081825 wlan0.A[134366] [ik] parsePHYEcounterV5@32668: Version = 5, ChanSpec=0xe02a, noise_req=10674, noise_crsbit=0, cal_counter=61, rxchain=15, chiptemp=30, femtemp=-50, btcx_mode=0,  ltecx_mode=0, weakest_rssi=-47, chan_switch_cnt=40, sc_dccal_incc_cnt=0
+[304676.081845]: 304676.081845 wlan0.A[134367] [ik] parsePHYEcounterV5@32673: gbd_ofdm_desense=16, gbd_bphy_desense=0, featureflag=64, crsmin_pwr_apply_cnt=11, preempt_status2=35249, ed_crs_status=0, measurehold=0, ocl_disable_reqs=0,  gci_rst_tx= 140, gci_rst_rx=3, gci_rst_sc=0, asym_intf_stats=44
+[304676.081852]: 304676.081852 wlan0.A[134368] [ik] parsePHYEcounterV5@32678: asym_intf_avg_noise[0]= -98, asym_intf_avg_noise[1]=-98, asym_intf_latest_noise[0]=-98, asym_intf_latest_noise[1]=-98, pwridx_init[0]=43, pwridx_init[1]=40,  baseindxval[0]=42, baseindxval[1]=40
+[304676.081858]: 304676.081858 wlan0.A[134369] [ik] parsePHYEcounterV5@32684: estpwradj[0]=53, estpwradj[1]=53, ed_threshold[0]=-74, ed_threshold[1]=-74, crsmin_pwr_idx[0]=11, crsmin_pwr_idx[1]=11,  crsmin_pwr[0]=-85, crsmin_pwr[1]=-84, noise_level_inst[0]=-96, noise_level_inst[1]=-95
+[304676.081869]: 304676.081869 wlan0.A[134370] [ik] updateChanSeqCommonStats@3470:P2P chan 36: dur 10927963, entry 61, crsglitch 220673, start 3693874, badplcp 2971876, badfcs 2740975, f0ov 0, f1ov 0, anyerr 2978885, resptout 5402, frmtooln 0, frmtoosh 2169561
+[304676.081897]: LQM-WIFI: (HighBand)  rxNotPrimary20s=0 ucodeLateDrop=0 rxInvalidUcodeLateWrongMACPHY=0 rxLate30us=0 rxLegacyFrmInvalid=0 txSifsErr=0 ooseqMacSusp=0
+[304676.086996]: LQM-WIFI: ccmpreplay=298 ccmpreplay_qosdata_nobapol_rxretry=0
+[304676.087079]: LQM-WIFI: Dynamic BW Stats: TxRTS [0,  0,  0,  0]   RxRTS [0,  0,  0,  0]   TxCTS [0,  0,  0,  0]   RxCTS [0,  0,  0,  0]
+[304676.087083]: LQM-WIFI: Dynamic BW Stats: TxMPDU [0,  0,  0,  0]   RxMPDU [0,  0,  0,  0]
+[304676.725739]: tx_flush:1338: disk3 xid 10651924 tx stats: # 674420 owait 38176 919us finish 678746 bar2 672419 f 653657 enter 22 fq 10 11 77us close 0us prep 262us flush 2577us
+[304677.100554]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114923753
+[304677.100571]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:20 outputPackets:22 packetThreshold:50
+[304678.116449]: LQM-WIFI:  (HighBand) rxToss=0 rxLastTossRsn=0 rxNoFrag=0 rxNoCmplId=0 rxNoHaddr=0 rxMulti=0 rxUndec=0
+
+[304678.116476]: LQM-WIFI:  (HighBand) rxCrsGlitch=152 rxBphyCrsGlitch=0 rxStart=2055 rxBadPLCP=1233 rxBphyBadPLCP=0 rxBadFCS=1130 rxFifo0Ovfl=0 rxFifo1Ovfl=0 rx_nobuf=0 rxAnyErr=1235 rxResponseTimeout=3 rxNoDelim=0 rxFrmTooLong=0 rxFrmTooShort=911
+
+[304678.116481]: LQM-WIFI: (HighBand) txRTSFrm=203 txRTSFail=0 rxCTSUcast=201 rxRTSUcast=0 txCTSFrm=0 txAMPDU=250 rxBACK=250 txPhyError=0 txAllFrm=925 txMPDU=911 txUcast=261 rxACKUcast=11 OfdmDesense=0 dB
+
+[304678.116485]: LQM-WIFI: (HighBand) rxBeaconMbss=50 rxBeaconObss=0 rxDataUcastMbss=840 rxMgmtUcastMbss=48 rxCNTRLUcast=462 txACKFrm=0 txBACK=363 ctxFifoFull=0 ctxFifo2Full=0 rxDataMcast=0 rxMgmtMcast=50
+
+[304678.116505]: LQM-WIFI: RX AMPDU (HighBand) rxAmpdu=361 txBACK(Ucode)=363 rxMpduInAmpdu=840 rxholes=0 rxdup=0 rxstuck=0 rxoow=0 rxoos=0 rxaddbareq=0 txaddbaresp=0 rxbar=0 txdelba=0 rxdelba=0 rxQueued=0 rxRetryNoBA=0
+
+[304678.116563]: LQM-WIFI: WME RX MPDUs (rxPER 0 %) in tids 0:2, 1:1317, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0
+
+[304678.116623]: 304678.116623 wlan0.A[134371] [ik] updateLinkQualityMetrics@709:For current session updated fRxDurMulticast 430020, fRxDurBroadcast 18680 
+[304678.120413]: LQM-WIFI:  WiFi Latency: TxLat-hist  [1(100 %) / 0(0 %) / 0(0 %) / 0(0 %)]   RxLat-hist  [0(0 %) / 0(0 %) / 0(0 %) / 0(0 %)]  intermittent-state = 0 
+
+[304678.120457]: LQM-WIFI-CT: rssi=-46(-49 -48) snr=34 bcn=49(49) txFrames=268 txRetry=0 txRate=433333 rxFrames=854 rxRetry=3 rxRate=390000 rxToss=0
+[304678.122951]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<322 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[304678.122969]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<4 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[304678.122975]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[304678.122981]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[304678.123031]: LQM-WiFi: BE : Count: 322 avgLatencyMs:1 maxLatencyMs:7 
+[304678.123044]: LQM-WiFi: BK : Count: 4 avgLatencyMs:1 maxLatencyMs:1 
+[304678.123047]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[304678.123050]: LQM-WiFi: VO : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[304678.123056]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=0 NoACK=0 Expired=0 OtherErr=0
+
+[304678.123062]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+[304678.123071]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+[304678.123079]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+[304678.123086]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+[304678.125643]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114924778
+[304678.125660]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:18 outputPackets:18 packetThreshold:50
+[304678.606343]: LQM-WIFI: WeightAvgLQM rssi=-44 snr=34 txRate=433333 rxRate=417083
+
+[304678.779705]: LQM-WIFI-CT: ofdmDesense=0 bphyDesense=0 reason=0x0
+[304678.878808]: 304678.878808 wlan0.A[134372] [ik] updateChanSeqCommonStats@3470:P2P chan 36: dur 10930760, entry 61, crsglitch 220817, start 3694701, badplcp 2972663, badfcs 2741651, f0ov 0, f1ov 0, anyerr 2979678, resptout 5402, frmtooln 0, frmtoosh 2170113
+[304678.883991]: LQM-WIFI: ccmpreplay=298 ccmpreplay_qosdata_nobapol_rxretry=0
+[304678.884085]: LQM-WIFI: slow-wifi featureEnabled:1 Channel:36 chWidth:80 phyMode:128 nss:2 RSSI:-44 CCA:8 SNR:34 offChanDurUS:0 TVPMDurMS:0 concurrentIntDurMS:0 randomMac:0 dataStallScore:50 networkScore:0
+[304678.884113]: LQM-WIFI: slow-wifi btAntDurMS:0 btESCO:0/0 rc1CoexDurMS:0 rc2CoexDurMS:0 lteCoexDurMS:0 totalNonWLANDurMS:0 infraDutyCycle:100 lastScanType:0
+[304678.884121]: LQM-WIFI: slow-wifi availWLANDurMS:5181 availTxDurMS:4554 realTxDurMS:47 availRxDurMS:5134 realRxDurMS:627 measurementDurMS:5181 lastScanDurMS:0
+[304678.884157]: LQM-WIFI: slow-wifi Tx tput (i/p:0 o/p:0 expected:0)Mbps queueFullDurMS:0 avgLatencyMS:1 maxLatencyMS:7 phyRate(mode:433 avg:430 expected:892) phyRateTputRatio:0
+[304678.884164]: LQM-WIFI: slow-wifi Tx AMPDUDensity(actual:4 expectedAtQueueFull:64) retries:0 fails:0 fwFrames:289 hostFrames:0 hostFails:0 ctlPkts:1(2127) symptomsFails:0
+[304678.884172]: LQM-WIFI: slow-wifi TxLim[1] outputBelowExpected:0 outputBelowInput:0 lowTxFrameCount:1 queueFull:0 highLatency:0 baselineNotAllowed:0 highSymptomsFails:0
+[304678.884178]: LQM-WIFI: slow-wifi TxLim[1] lowPhyRate:0 lowPhyRateTputRatio:0 highPER:0 highRetries:0 lowTxAMPDUDensity:1 lowCCA:1 activeCoex:0 hostFWMismatch:1
+[304678.884183]: LQM-WIFI: slow-wifi Rx tput:0 Mbps baseline:0 Mbps overflows:0 fcsFail:1806 plcpBad:2020 goodPlcps:2882 crsGlitches:296 fwFrames:1797 ucastFWFrames:878 hostFrames:0 AmpduDUP:0 APTxDataStallPct:0 rxAmpduTxBaMismatch:0
+[304678.884192]: LQM-WIFI: slow-wifi Rx ucast(replays:0 decryptErrs:0) mcast(replays:0 decryptErrs:0) phyRate(mode:433 avg:426 expected:892) dups:0 retries:0 phyRateTputRatio:0
+[304678.884198]: LQM-WIFI: slow-wifi RxLim[1] highRetries:0 highPhyPER:0 highDataPER:0 highOverflows:0 highRSSI:1 lowPhyRate:0 lowPhyRateTputRatio:0 
+[304678.884203]: LQM-WIFI: slow-wifi RxLim[1] highFCSErrors:0 highDups:0 highReplays:0 highDecryptErrors:0 highMCDecryptErrors:0 lowRxFrameCount:1
+[304678.884209]: LQM-WIFI: UI Entry curState:Idle prevState:PendingIP event:ChannelQualityUpdate data:1
+[304678.884217]: LQM-WIFI: UI Exit curState:Idle prevState:PendingIP
+[304678.884220]: LQM-WIFI: slow-wifi Host and FW packet count mismatchLQM-WIFI: slow-wifi Host and FW packet count mismatchcom.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114925803
+[304679.150740]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:4 outputPackets:7 packetThreshold:50
+[304680.175820]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114926828
+[304680.175842]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:9 outputPackets:7 packetThreshold:50
+[304681.200904]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114927854
+[304681.200926]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:10 outputPackets:14 packetThreshold:50
+[304681.995786]: AppleAVD: INFO: logPerfStats(): avdIdx 0, Percentage of time spent at Vmin: 90%, Vnom: 0%, Vmax: 9%, histogram \M-b\M^V\M^G\M-b\M^V\M^A\M-b\M^V\M^AAppleAVD: INFO: logUserClientStats(): avdIdx 0, UserClientCount 2, 2, 2, 2, 2, histogram \M-b\M^V\M^A\M-b\M^V\M^A\M-b\M^V\M^A\M-b\M^V\M^A\M-b\M^V\M^Acom.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114928879
+[304682.226000]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:6 outputPackets:10 packetThreshold:50
+[304683.122859]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<37 0 0 0 0 0 0 0 0 0 0> (4999ms)
+
+[304683.122886]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<2 0 0 0 0 0 0 0 0 0 0> (4999ms)
+
+[304683.122892]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (4999ms)
+
+[304683.122896]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<1 0 0 0 0 0 0 0 0 0 0> (4999ms)
+
+[304683.122972]: LQM-WiFi: BE : Count: 37 avgLatencyMs:1 maxLatencyMs:5 
+[304683.122982]: LQM-WiFi: BK : Count: 2 avgLatencyMs:1 maxLatencyMs:1 
+[304683.122984]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[304683.122986]: LQM-WiFi: VO : Count: 1 avgLatencyMs:5 maxLatencyMs:5 
+[304683.122996]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=1 NoACK=0 Expired=0 OtherErr=0
+
+[304683.123001]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304683.123023]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304683.123030]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304683.123035]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304683.127810]: LQM-WIFI:  (HighBand) rxToss=0 rxLastTossRsn=0 rxNoFrag=0 rxNoCmplId=0 rxNoHaddr=0 rxMulti=0 rxUndec=0
+
+[304683.127829]: LQM-WIFI:  (HighBand) rxCrsGlitch=144 rxBphyCrsGlitch=0 rxStart=827 rxBadPLCP=787 rxBphyBadPLCP=0 rxBadFCS=676 rxFifo0Ovfl=0 rxFifo1Ovfl=0 rx_nobuf=0 rxAnyErr=793 rxResponseTimeout=0 rxNoDelim=2 rxFrmTooLong=0 rxFrmTooShort=552
+
+[304683.127834]: LQM-WIFI: (HighBand) txRTSFrm=25 txRTSFail=0 rxCTSUcast=25 rxRTSUcast=0 txCTSFrm=0 txAMPDU=37 rxBACK=37 txPhyError=0 txAllFrm=129 txMPDU=552 txUcast=46 rxACKUcast=9 OfdmDesense=0 dB
+
+[304683.127837]: LQM-WIFI: (HighBand) rxBeaconMbss=30 rxBeaconObss=0 rxDataUcastMbss=38 rxMgmtUcastMbss=12 rxCNTRLUcast=71 txACKFrm=0 txBACK=34 ctxFifoFull=0 ctxFifo2Full=0 rxDataMcast=0 rxMgmtMcast=30
+
+[304683.127842]: LQM-WIFI: RX AMPDU (HighBand) rxAmpdu=33 txBACK(Ucode)=34 rxMpduInAmpdu=35 rxholes=0 rxdup=0 rxstuck=0 rxoow=0 rxoos=0 rxaddbareq=0 txaddbaresp=0 rxbar=0 txdelba=0 rxdelba=0 rxQueued=0 rxRetryNoBA=0
+
+[304683.127887]: LQM-WIFI: WME RX MPDUs (rxPER 0 %) in tids 0:2, 1:1317, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0
+
+[304683.127937]: 304683.127937 wlan0.A[134373] [ik] updateLinkQualityMetrics@709:For current session updated fRxDurMulticast 430020, fRxDurBroadcast 18680 
+[304683.131764]: LQM-WIFI:  WiFi Latency: TxLat-hist  [5(100 %) / 0(0 %) / 0(0 %) / 0(0 %)]   RxLat-hist  [0(0 %) / 0(0 %) / 0(0 %) / 0(0 %)]  intermittent-state = 0 
+
+[304683.131817]: LQM-WIFI-CT: rssi=-43(-56 -43) snr=35 bcn=27(27) txFrames=38 txRetry=0 txRate=433333 rxFrames=26 rxRetry=0 rxRate=390000 rxToss=0
+[304683.251076]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114929904
+[304683.251099]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:0 outputPackets:2 packetThreshold:50
+[304683.366066]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304683.366084]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304683.366142]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304683.366149]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304683.548702]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304683.548721]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304683.624014]: LQM-WIFI: WeightAvgLQM rssi=-43 snr=34 txRate=433333 rxRate=377812
+
+[304683.679837]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304683.679861]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304683.779936]: LQM-WIFI-CT: ofdmDesense=0 bphyDesense=0 reason=0x0
+[304683.879741]: LQM-WIFI-PHY:  Version = 5, ChanSpec=0xe02a, phy_wdg=10685, noise_req=10682, noise_crsbit=0, noise_apply=6, cal_counter=61, slice=0
+[304683.879768]: LQM-WIFI-PHY:  rxchain=15, txchain=0, gbd_bphy_sleep_counter=0, gbd_ofdm_sleep_counter=4, gbd_ofdm_desense=17, gbd_bphy_desense=0 
+[304683.879772]: LQM-WIFI-PHY:  chiptemp=29, femtemp=-50, btcx_mode=0, ltecx_mode=0, weakest_rssi=-61, chan_switch_cnt=40, phycal_disable=0, featureflag=64
+[304683.879776]: LQM-WIFI-PHY:  deaf_count=0, noise_mmt_overdue=0, crsmin_pwr_apply_cnt=11, ed_crs_status=0, preempt_status1=0, preempt_status2=35264, preempt_status3=0, preempt_status4=0 , counter_noise_iqest_to=0, cca_stats_total_glitch=7, cca_stats_bphy_glitch=0, cca_stats_total_badplcp=196,  cca_stats_bphy_badplcp=0, cca_stats_mbsstime= 1000, cca_stats_ed_duration=0
+[304683.879783]: LQM-WIFI-PHY:  measurehold=0, rxsense_disable_req_ch=0, ocl_disable_reqs=0, interference_mode=9, power_mode=1, obss_last_read_time=304669, asym_intf_ed_thresh=-70, obss_mit_bw=2 , obss_stats_cnt=8584, dynbw_init_reducebw_cnt=0, dynbw_resp_reducebw_cnt=0, dynbw_rxdata_reducebw_cnt=0,  obss_mmt_skip_cnt=0, obss_mmt_no_result_cnt= 2099, obss_mmt_intr_err_cnt=3
+[304683.879815]: LQM-WIFI-PHY:  gci_lst_inv_ctr=0, gci_lst_rst_ctr=10, gci_lst_sem_ctr=0, gci_lst_rb_st=385, gci_dbg01=0, gci_dbg02=0, gci_dbg03=0 , gci_dbg04=0, gci_dbg05=0, gci_lst_st_msk=65535, gci_inv_tx=0,  gci_inv_rx=0, gci_rst_tx= 140, gci_rst_rx=3
+[304683.879820]: LQM-WIFI-PHY:  gci_sem_ctr=0, gci_invstate=33409, gci_ctl2=3, gci_chan=57386, gci_cm=65535, gci_sc=0, gci_rst_sc=0, gci_prdc_rx=0 , gci_wk_rx=3, gci_rmac_rx=0, gci_tx_rx=0, asym_intf_stats=44,  asym_intf_ncal_crs_stat=0, ed_crsEn= 255, nvcfg0=2572, cal_suppressed_cntr_ed=0 
+[304683.879826]: LQM-WIFI-PHY:  sc_dccal_incc_cnt=0, sc_noisecal_incc_cnt=0, btc_mode=0, asym_intf_ant_noise_idx=0, asym_intf_pending_host_req_type=3,  asym_intf_ncal_crs_stat_idx=0, rxsense_noise_idx=0, rxsense_offset=0, asym_intf_tx_smartcca_cm=0, asym_intf_rx_noise_mit_cm=0,  asym_intf_avg_noise[0]= -98, asym_intf_latest_noise[0]=-98, asym_intf_avg_noise[1]=-98, asym_intf_latest_noise[1]=-98
+[304683.879832]: LQM-WIFI-PHY:  bad_txbaseidx_cnt[0]=0 curr_tssival[0]=945 pwridx_init[0]=43 auxphystats[0]=8738 phystatsgaininfo[0]=34870 flexgaininfo_A[0]=608 crsmin_pwr_idx[0]=12, baseindxval[0]=42, crsmin_pwr[0]=-85, noise_level_inst[0]=-95, tgt_pwr[0]=55, estpwradj[0]=56, ed_threshold[0]=-74 bad_txbaseidx_cnt[1]=0 curr_tssival[1]=953 pwridx_init[1]=40 auxphystats[1]=8738 phystatsgaininfo[1]=34830 flexgaininfo_A[1]=544 crsmin_pwr_idx[1]=12, baseindxval[1]=40, crsmin_pwr[1]=-84, noise_level_inst[1]=-95, tgt_pwr[1]=55, estpwradj[1]=56, ed_threshold[1]=-74 
+[304683.879841]: LQM-WIFI-PHY:  OBSS Info --> need_updt: 0, mit_status: 0, obss_mit_bw=2, last_rec_bw: 2, obss_last_read_time=304669 
+[304683.879843]: LQM-WIFI-PHY:  OBSS PWR Estimation Core0 --> LLL: 1  LLU: -94  LUL: -94  LUU: -94  ULL: 0  ULU: 0  UUL: 0  UUU: 0
+[304683.879846]: LQM-WIFI-PHY:  OBSS PWR Estimation Core1 --> LLL: 1  LLU: -94  LUL: -94  LUU: -94  ULL: 0  ULU: 0  UUL: 0  UUU: 0
+[304683.879848]: LQM-WIFI-PHY:  OBSS --> detection stats 0: 0  1: 0  2: 0  3: 0  4: 0  5: 0  6: 0  7: 0 
+[304683.879869]: 304683.879868 wlan0.A[134374] [ik] parsePHYEcounterV5@32668: Version = 5, ChanSpec=0xe02a, noise_req=10682, noise_crsbit=0, cal_counter=61, rxchain=15, chiptemp=29, femtemp=-50, btcx_mode=0,  ltecx_mode=0, weakest_rssi=-61, chan_switch_cnt=40, sc_dccal_incc_cnt=0
+[304683.879891]: 304683.879891 wlan0.A[134375] [ik] parsePHYEcounterV5@32673: gbd_ofdm_desense=17, gbd_bphy_desense=0, featureflag=64, crsmin_pwr_apply_cnt=11, preempt_status2=35264, ed_crs_status=0, measurehold=0, ocl_disable_reqs=0,  gci_rst_tx= 140, gci_rst_rx=3, gci_rst_sc=0, asym_intf_stats=44
+[304683.879900]: 304683.879900 wlan0.A[134376] [ik] parsePHYEcounterV5@32678: asym_intf_avg_noise[0]= -98, asym_intf_avg_noise[1]=-98, asym_intf_latest_noise[0]=-98, asym_intf_latest_noise[1]=-98, pwridx_init[0]=43, pwridx_init[1]=40,  baseindxval[0]=42, baseindxval[1]=40
+[304683.879909]: 304683.879909 wlan0.A[134377] [ik] parsePHYEcounterV5@32684: estpwradj[0]=56, estpwradj[1]=56, ed_threshold[0]=-74, ed_threshold[1]=-74, crsmin_pwr_idx[0]=12, crsmin_pwr_idx[1]=12,  crsmin_pwr[0]=-85, crsmin_pwr[1]=-84, noise_level_inst[0]=-95, noise_level_inst[1]=-95
+[304683.879924]: 304683.879924 wlan0.A[134378] [ik] updateChanSeqCommonStats@3470:P2P chan 36: dur 10935761, entry 61, crsglitch 220910, start 3695935, badplcp 2973836, badfcs 2742703, f0ov 0, f1ov 0, anyerr 2980853, resptout 5402, frmtooln 0, frmtoosh 2170948
+[304683.879957]: LQM-WIFI: (HighBand)  rxNotPrimary20s=0 ucodeLateDrop=0 rxInvalidUcodeLateWrongMACPHY=0 rxLate30us=0 rxLegacyFrmInvalid=0 txSifsErr=0 ooseqMacSusp=0
+[304683.884847]: LQM-WIFI: ccmpreplay=298 ccmpreplay_qosdata_nobapol_rxretry=0
+[304683.884955]: LQM-WIFI: Dynamic BW Stats: TxRTS [0,  0,  0,  0]   RxRTS [0,  0,  0,  0]   TxCTS [0,  0,  0,  0]   RxCTS [0,  0,  0,  0]
+[304683.884965]: LQM-WIFI: Dynamic BW Stats: TxMPDU [0,  0,  0,  0]   RxMPDU [0,  0,  0,  0]
+[304683.919124]: 304683.919124 wlan0.A[134379] [ik] updateChanSeqCommonStats@3470:P2P chan 36: dur 10935801, entry 61, crsglitch 220910, start 3695935, badplcp 2973836, badfcs 2742703, f0ov 0, f1ov 0, anyerr 2980853, resptout 5402, frmtooln 0, frmtoosh 2170948
+[304683.924448]: LQM-WIFI: ccmpreplay=298 ccmpreplay_qosdata_nobapol_rxretry=0
+[304683.924503]: LQM-WIFI: slow-wifi featureEnabled:1 Channel:36 chWidth:80 phyMode:128 nss:2 RSSI:-43 CCA:8 SNR:34 offChanDurUS:0 TVPMDurMS:0 concurrentIntDurMS:0 randomMac:0 dataStallScore:50 networkScore:0
+[304683.924510]: LQM-WIFI: slow-wifi btAntDurMS:0 btESCO:0/0 rc1CoexDurMS:0 rc2CoexDurMS:0 lteCoexDurMS:0 totalNonWLANDurMS:0 infraDutyCycle:100 lastScanType:0
+[304683.924514]: LQM-WIFI: slow-wifi availWLANDurMS:5040 availTxDurMS:4711 realTxDurMS:6 availRxDurMS:5034 realRxDurMS:329 measurementDurMS:5040 lastScanDurMS:0
+[304683.924517]: LQM-WIFI: slow-wifi Tx tput (i/p:0 o/p:0 expected:0)Mbps queueFullDurMS:0 avgLatencyMS:1 maxLatencyMS:5 phyRate(mode:433 avg:430 expected:892) phyRateTputRatio:0
+[304683.924521]: LQM-WIFI: slow-wifi Tx AMPDUDensity(actual:0 expectedAtQueueFull:64) retries:0 fails:0 fwFrames:64 hostFrames:0 hostFails:0 ctlPkts:0(2127) symptomsFails:0
+[304683.924524]: LQM-WIFI: slow-wifi TxLim[1] outputBelowExpected:0 outputBelowInput:0 lowTxFrameCount:1 queueFull:0 highLatency:0 baselineNotAllowed:0 highSymptomsFails:0
+[304683.924527]: LQM-WIFI: slow-wifi TxLim[1] lowPhyRate:0 lowPhyRateTputRatio:0 highPER:0 highRetries:0 lowTxAMPDUDensity:0 lowCCA:1 activeCoex:0 hostFWMismatch:0
+[304683.924539]: LQM-WIFI: slow-wifi Rx tput:0 Mbps baseline:0 Mbps overflows:0 fcsFail:1052 plcpBad:1173 goodPlcps:1234 crsGlitches:93 fwFrames:224 ucastFWFrames:26 hostFrames:0 AmpduDUP:0 APTxDataStallPct:0 rxAmpduTxBaMismatch:0
+[304683.924544]: LQM-WIFI: slow-wifi Rx ucast(replays:0 decryptErrs:0) mcast(replays:0 decryptErrs:0) phyRate(mode:433 avg:421 expected:892) dups:0 retries:0 phyRateTputRatio:0
+[304683.924548]: LQM-WIFI: slow-wifi RxLim[1] highRetries:0 highPhyPER:0 highDataPER:0 highOverflows:0 highRSSI:1 lowPhyRate:0 lowPhyRateTputRatio:0 
+[304683.924550]: LQM-WIFI: slow-wifi RxLim[1] highFCSErrors:0 highDups:0 highReplays:0 highDecryptErrors:0 highMCDecryptErrors:0 lowRxFrameCount:1
+[304683.924554]: LQM-WIFI: UI Entry curState:Idle prevState:PendingIP event:ChannelQualityUpdate data:1
+[304683.924558]: LQM-WIFI: UI Exit curState:Idle prevState:PendingIP
+[304683.980507]: Sandbox apply: Microsoft Edge Helper (Renderer)[39404] <bytes>tx_flush:1338: disk3 xid 10651944 tx stats: # 674440 owait 38176 919us finish 678766 bar2 672439 f 653675 enter 1 fq 10 12 61us close 0us prep 79us flush 2690us
+[304684.275277]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114930928
+[304684.275286]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:111 outputPackets:126 packetThreshold:50
+[304684.275289]: com.apple.p2p: monitorInfraTraffic[8694] Infra Traffic type has changed from Bulk Data to Real Time. AWDL is Off
+[304684.275292]: com.apple.p2p: monitorInfraTraffic[8773]: Updating infra traffic state from Bulk Data to Real Time
+[304684.758723]: tx_flush:1338: disk3 xid 10651964 tx stats: # 674460 owait 38176 919us finish 678786 bar2 672459 f 653695 enter 1 fq 9 11 53us close 0us prep 83us flush 2004us
+[304684.811712]: tx_flush:1338: disk3 xid 10651984 tx stats: # 674480 owait 38178 919us finish 678807 bar2 672479 f 653715 enter 1 fq 9 11 63us close 0us prep 97us flush 2660us
+[304684.866785]: tx_flush:1338: disk3 xid 10652004 tx stats: # 674500 owait 38178 919us finish 678828 bar2 672499 f 653735 enter 1 fq 9 11 38us close 0us prep 68us flush 2497us
+[304684.915976]: Sandbox: ContextStoreAgent(38385) allow file-read-data /Applications/Warp.appSandbox: ContextStoreAgent(38385) allow file-read-data /Applications/Warp.app/ContentsSandbox: ContextStoreAgent(38385) allow file-read-data /Applications/Warp.app/Contents/Info.plistSandbox: ContextStoreAgent(38385) allow file-read-data /Applications/Warp.appSandbox: ContextStoreAgent(38385) allow file-read-data /Applications/Warp.app/Contents/MacOS/stable1 duplicate report for Sandbox: ContextStoreAgent(38385) allow file-read-data /Applications/Warp.app/Contents/MacOS/stableSandbox: ContextStoreAgent(38385) allow file-read-xattr /Applications/Warp.app/Contents/MacOS/stableSandbox: ContextStoreAgent(38385) allow file-read-data /Applications/Warp.app/Contents/Info.plisttx_flush:1338: disk3 xid 10652024 tx stats: # 674520 owait 38184 919us finish 678848 bar2 672519 f 653755 enter 5 fq 34 36 179us close 21us prep 230us flush 3492us
+[304685.299692]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114931952
+[304685.299711]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:127 outputPackets:129 packetThreshold:50
+[304685.535301]: tx_flush:1338: disk3 xid 10652044 tx stats: # 674540 owait 38186 919us finish 678868 bar2 672539 f 653775 enter 12 fq 10 12 80us close 0us prep 239us flush 2422us
+[304686.284203]: tx_flush:1338: disk3 xid 10652064 tx stats: # 674560 owait 38186 919us finish 678888 bar2 672559 f 653795 enter 1 fq 14 17 88us close 0us prep 114us flush 2338us
+[304686.324769]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114932977
+[304686.324795]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:116 outputPackets:101 packetThreshold:50
+[304687.349854]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114934002
+[304687.349875]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:43 outputPackets:43 packetThreshold:50
+[304687.357820]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304687.357837]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304687.357889]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304687.357895]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304687.400339]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304687.400358]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304687.415460]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304687.415481]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304687.909590]: tx_flush:1338: disk3 xid 10652084 tx stats: # 674580 owait 38186 919us finish 678908 bar2 672579 f 653815 enter 9 fq 14 17 179us close 0us prep 252us flush 2436us
+[304688.122914]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<408 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[304688.122943]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<6 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[304688.122954]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[304688.122963]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<2 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[304688.123068]: LQM-WiFi: BE : Count: 408 avgLatencyMs:1 maxLatencyMs:4 
+[304688.123084]: LQM-WiFi: BK : Count: 6 avgLatencyMs:1 maxLatencyMs:2 
+[304688.123090]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[304688.123095]: LQM-WiFi: VO : Count: 2 avgLatencyMs:1 maxLatencyMs:1 
+[304688.123106]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=2 NoACK=0 Expired=0 OtherErr=0
+
+[304688.123116]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304688.123130]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304688.123142]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304688.123155]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304688.138353]: LQM-WIFI:  (HighBand) rxToss=0 rxLastTossRsn=0 rxNoFrag=0 rxNoCmplId=0 rxNoHaddr=0 rxMulti=0 rxUndec=0
+
+[304688.138380]: LQM-WIFI:  (HighBand) rxCrsGlitch=93 rxBphyCrsGlitch=0 rxStart=1234 rxBadPLCP=1173 rxBphyBadPLCP=0 rxBadFCS=1052 rxFifo0Ovfl=0 rxFifo1Ovfl=0 rx_nobuf=0 rxAnyErr=1175 rxResponseTimeout=0 rxNoDelim=0 rxFrmTooLong=0 rxFrmTooShort=835
+
+[304688.138388]: LQM-WIFI: (HighBand) txRTSFrm=26 txRTSFail=0 rxCTSUcast=26 rxRTSUcast=0 txCTSFrm=0 txAMPDU=44 rxBACK=44 txPhyError=0 txAllFrm=148 txMPDU=835 txUcast=61 rxACKUcast=17 OfdmDesense=0 dB
+
+[304688.138404]: LQM-WIFI: (HighBand) rxBeaconMbss=50 rxBeaconObss=0 rxDataUcastMbss=26 rxMgmtUcastMbss=18 rxCNTRLUcast=87 txACKFrm=0 txBACK=25 ctxFifoFull=0 ctxFifo2Full=0 rxDataMcast=0 rxMgmtMcast=50
+
+[304688.138411]: LQM-WIFI: RX AMPDU (HighBand) rxAmpdu=49 txBACK(Ucode)=25 rxMpduInAmpdu=55 rxholes=0 rxdup=0 rxstuck=0 rxoow=0 rxoos=0 rxaddbareq=0 txaddbaresp=0 rxbar=0 txdelba=0 rxdelba=0 rxQueued=0 rxRetryNoBA=0
+
+[304688.138455]: LQM-WIFI: WME RX MPDUs (rxPER 0 %) in tids 0:3, 1:91, 2:0, 3:0, 4:10, 5:0, 6:0, 7:0
+
+[304688.138517]: 304688.138516 wlan0.A[134380] [ik] updateLinkQualityMetrics@709:For current session updated fRxDurMulticast 430020, fRxDurBroadcast 18680 
+[304688.142847]: LQM-WIFI:  WiFi Latency: TxLat-hist  [1(100 %) / 0(0 %) / 0(0 %) / 0(0 %)]   RxLat-hist  [0(0 %) / 0(0 %) / 0(0 %) / 0(0 %)]  intermittent-state = 0 
+
+[304688.142900]: LQM-WIFI-CT: rssi=-43(-50 -45) snr=34 bcn=49(49) txFrames=279 txRetry=0 txRate=433333 rxFrames=331 rxRetry=2 rxRate=390000 rxToss=0
+[304688.374925]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114935028
+[304688.374942]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:20 outputPackets:23 packetThreshold:50
+[304688.374948]: com.apple.p2p: monitorInfraTraffic[8694] Infra Traffic type has changed from Real Time to Bulk Data. AWDL is Off
+[304688.374951]: com.apple.p2p: monitorInfraTraffic[8773]: Updating infra traffic state from Real Time to Bulk Data
+[304688.644747]: LQM-WIFI: WeightAvgLQM rssi=-45 snr=33 txRate=433333 rxRate=390000
+
+[304688.780975]: LQM-WIFI-CT: ofdmDesense=0 bphyDesense=0 reason=0x0
+[304688.919961]: LQM-WIFI-PHY:  Version = 5, ChanSpec=0xe02a, phy_wdg=10690, noise_req=10687, noise_crsbit=0, noise_apply=6, cal_counter=61, slice=0
+[304688.919983]: LQM-WIFI-PHY:  rxchain=15, txchain=0, gbd_bphy_sleep_counter=0, gbd_ofdm_sleep_counter=1, gbd_ofdm_desense=25, gbd_bphy_desense=0 
+[304688.919986]: LQM-WIFI-PHY:  chiptemp=30, femtemp=-50, btcx_mode=0, ltecx_mode=0, weakest_rssi=-47, chan_switch_cnt=40, phycal_disable=0, featureflag=64
+[304688.919991]: LQM-WIFI-PHY:  deaf_count=0, noise_mmt_overdue=0, crsmin_pwr_apply_cnt=11, ed_crs_status=0, preempt_status1=0, preempt_status2=35293, preempt_status3=0, preempt_status4=0 , counter_noise_iqest_to=0, cca_stats_total_glitch=24, cca_stats_bphy_glitch=0, cca_stats_total_badplcp=350,  cca_stats_bphy_badplcp=0, cca_stats_mbsstime= 1000, cca_stats_ed_duration=0
+[304688.919997]: LQM-WIFI-PHY:  measurehold=0, rxsense_disable_req_ch=0, ocl_disable_reqs=0, interference_mode=9, power_mode=1, obss_last_read_time=304674, asym_intf_ed_thresh=-70, obss_mit_bw=2 , obss_stats_cnt=8589, dynbw_init_reducebw_cnt=0, dynbw_resp_reducebw_cnt=0, dynbw_rxdata_reducebw_cnt=0,  obss_mmt_skip_cnt=0, obss_mmt_no_result_cnt= 2099, obss_mmt_intr_err_cnt=3
+[304688.920003]: LQM-WIFI-PHY:  gci_lst_inv_ctr=0, gci_lst_rst_ctr=10, gci_lst_sem_ctr=0, gci_lst_rb_st=385, gci_dbg01=0, gci_dbg02=0, gci_dbg03=0 , gci_dbg04=0, gci_dbg05=0, gci_lst_st_msk=65535, gci_inv_tx=0,  gci_inv_rx=0, gci_rst_tx= 140, gci_rst_rx=3
+[304688.920007]: LQM-WIFI-PHY:  gci_sem_ctr=0, gci_invstate=33409, gci_ctl2=3, gci_chan=57386, gci_cm=65535, gci_sc=0, gci_rst_sc=0, gci_prdc_rx=0 , gci_wk_rx=3, gci_rmac_rx=0, gci_tx_rx=0, asym_intf_stats=44,  asym_intf_ncal_crs_stat=0, ed_crsEn= 255, nvcfg0=2572, cal_suppressed_cntr_ed=0 
+[304688.920012]: LQM-WIFI-PHY:  sc_dccal_incc_cnt=0, sc_noisecal_incc_cnt=0, btc_mode=0, asym_intf_ant_noise_idx=0, asym_intf_pending_host_req_type=3,  asym_intf_ncal_crs_stat_idx=0, rxsense_noise_idx=0, rxsense_offset=0, asym_intf_tx_smartcca_cm=0, asym_intf_rx_noise_mit_cm=0,  asym_intf_avg_noise[0]= -98, asym_intf_latest_noise[0]=-98, asym_intf_avg_noise[1]=-98, asym_intf_latest_noise[1]=-98
+[304688.920018]: LQM-WIFI-PHY:  bad_txbaseidx_cnt[0]=0 curr_tssival[0]=951 pwridx_init[0]=43 auxphystats[0]=21845 phystatsgaininfo[0]=43130 flexgaininfo_A[0]=608 crsmin_pwr_idx[0]=20, baseindxval[0]=42, crsmin_pwr[0]=-85, noise_level_inst[0]=-96, tgt_pwr[0]=55, estpwradj[0]=57, ed_threshold[0]=-74 bad_txbaseidx_cnt[1]=0 curr_tssival[1]=963 pwridx_init[1]=40 auxphystats[1]=13107 phystatsgaininfo[1]=39034 flexgaininfo_A[1]=608 crsmin_pwr_idx[1]=20, baseindxval[1]=39, crsmin_pwr[1]=-84, noise_level_inst[1]=-95, tgt_pwr[1]=55, estpwradj[1]=58, ed_threshold[1]=-74 
+[304688.920027]: LQM-WIFI-PHY:  OBSS Info --> need_updt: 0, mit_status: 0, obss_mit_bw=2, last_rec_bw: 2, obss_last_read_time=304674 
+[304688.920029]: LQM-WIFI-PHY:  OBSS PWR Estimation Core0 --> LLL: 1  LLU: -94  LUL: -94  LUU: -94  ULL: 0  ULU: 0  UUL: 0  UUU: 0
+[304688.920031]: LQM-WIFI-PHY:  OBSS PWR Estimation Core1 --> LLL: 1  LLU: -94  LUL: -94  LUU: -94  ULL: 0  ULU: 0  UUL: 0  UUU: 0
+[304688.920034]: LQM-WIFI-PHY:  OBSS --> detection stats 0: 0  1: 0  2: 0  3: 0  4: 0  5: 0  6: 0  7: 0 
+[304688.920052]: 304688.920052 wlan0.A[134381] [ik] parsePHYEcounterV5@32668: Version = 5, ChanSpec=0xe02a, noise_req=10687, noise_crsbit=0, cal_counter=61, rxchain=15, chiptemp=30, femtemp=-50, btcx_mode=0,  ltecx_mode=0, weakest_rssi=-47, chan_switch_cnt=40, sc_dccal_incc_cnt=0
+[304688.920073]: 304688.920073 wlan0.A[134382] [ik] parsePHYEcounterV5@32673: gbd_ofdm_desense=25, gbd_bphy_desense=0, featureflag=64, crsmin_pwr_apply_cnt=11, preempt_status2=35293, ed_crs_status=0, measurehold=0, ocl_disable_reqs=0,  gci_rst_tx= 140, gci_rst_rx=3, gci_rst_sc=0, asym_intf_stats=44
+[304688.920098]: 304688.920098 wlan0.A[134383] [ik] parsePHYEcounterV5@32678: asym_intf_avg_noise[0]= -98, asym_intf_avg_noise[1]=-98, asym_intf_latest_noise[0]=-98, asym_intf_latest_noise[1]=-98, pwridx_init[0]=43, pwridx_init[1]=40,  baseindxval[0]=42, baseindxval[1]=39
+[304688.920105]: 304688.920105 wlan0.A[134384] [ik] parsePHYEcounterV5@32684: estpwradj[0]=57, estpwradj[1]=58, ed_threshold[0]=-74, ed_threshold[1]=-74, crsmin_pwr_idx[0]=20, crsmin_pwr_idx[1]=20,  crsmin_pwr[0]=-85, crsmin_pwr[1]=-84, noise_level_inst[0]=-96, noise_level_inst[1]=-95
+[304688.920146]: 304688.920146 wlan0.A[134385] [ik] updateChanSeqCommonStats@3470:P2P chan 36: dur 10940801, entry 61, crsglitch 221035, start 3698485, badplcp 2975624, badfcs 2744322, f0ov 0, f1ov 0, anyerr 2982651, resptout 5404, frmtooln 0, frmtoosh 2172205
+[304688.920188]: LQM-WIFI: (HighBand)  rxNotPrimary20s=0 ucodeLateDrop=0 rxInvalidUcodeLateWrongMACPHY=0 rxLate30us=0 rxLegacyFrmInvalid=0 txSifsErr=0 ooseqMacSusp=0
+[304688.925088]: LQM-WIFI: ccmpreplay=298 ccmpreplay_qosdata_nobapol_rxretry=0
+[304688.925182]: LQM-WIFI: Dynamic BW Stats: TxRTS [0,  0,  0,  0]   RxRTS [0,  0,  0,  0]   TxCTS [0,  0,  0,  0]   RxCTS [0,  0,  0,  0]
+[304688.925186]: LQM-WIFI: Dynamic BW Stats: TxMPDU [0,  0,  0,  0]   RxMPDU [0,  0,  0,  0]
+[304688.958114]: 304688.958113 wlan0.A[134386] [ik] updateChanSeqCommonStats@3470:P2P chan 36: dur 10940839, entry 61, crsglitch 221035, start 3698485, badplcp 2975624, badfcs 2744322, f0ov 0, f1ov 0, anyerr 2982651, resptout 5404, frmtooln 0, frmtoosh 2172205
+[304688.963208]: LQM-WIFI: ccmpreplay=298 ccmpreplay_qosdata_nobapol_rxretry=0
+[304688.963277]: LQM-WIFI: slow-wifi featureEnabled:1 Channel:36 chWidth:80 phyMode:128 nss:2 RSSI:-45 CCA:8 SNR:33 offChanDurUS:0 TVPMDurMS:0 concurrentIntDurMS:0 randomMac:0 dataStallScore:50 networkScore:0
+[304688.963290]: LQM-WIFI: slow-wifi btAntDurMS:0 btESCO:0/0 rc1CoexDurMS:0 rc2CoexDurMS:0 lteCoexDurMS:0 totalNonWLANDurMS:0 infraDutyCycle:100 lastScanType:0
+[304688.963299]: LQM-WIFI: slow-wifi availWLANDurMS:5038 availTxDurMS:4515 realTxDurMS:46 availRxDurMS:4992 realRxDurMS:523 measurementDurMS:5038 lastScanDurMS:0
+[304688.963305]: LQM-WIFI: slow-wifi Tx tput (i/p:0 o/p:0 expected:0)Mbps queueFullDurMS:0 avgLatencyMS:1 maxLatencyMS:4 phyRate(mode:433 avg:430 expected:892) phyRateTputRatio:0
+[304688.963313]: LQM-WIFI: slow-wifi Tx AMPDUDensity(actual:1 expectedAtQueueFull:64) retries:0 fails:0 fwFrames:267 hostFrames:0 hostFails:0 ctlPkts:3(2130) symptomsFails:0
+[304688.963321]: LQM-WIFI: slow-wifi TxLim[1] outputBelowExpected:0 outputBelowInput:0 lowTxFrameCount:1 queueFull:0 highLatency:0 baselineNotAllowed:0 highSymptomsFails:0
+[304688.963327]: LQM-WIFI: slow-wifi TxLim[1] lowPhyRate:0 lowPhyRateTputRatio:0 highPER:0 highRetries:0 lowTxAMPDUDensity:1 lowCCA:1 activeCoex:0 hostFWMismatch:1
+[304688.963342]: LQM-WIFI: slow-wifi Rx tput:0 Mbps baseline:0 Mbps overflows:0 fcsFail:1619 plcpBad:1788 goodPlcps:2550 crsGlitches:125 fwFrames:1144 ucastFWFrames:343 hostFrames:0 AmpduDUP:0 APTxDataStallPct:0 rxAmpduTxBaMismatch:0
+[304688.963352]: LQM-WIFI: slow-wifi Rx ucast(replays:0 decryptErrs:0) mcast(replays:0 decryptErrs:0) phyRate(mode:433 avg:424 expected:892) dups:0 retries:0 phyRateTputRatio:0
+[304688.963359]: LQM-WIFI: slow-wifi RxLim[1] highRetries:0 highPhyPER:0 highDataPER:0 highOverflows:0 highRSSI:1 lowPhyRate:0 lowPhyRateTputRatio:0 
+[304688.963365]: LQM-WIFI: slow-wifi RxLim[1] highFCSErrors:0 highDups:0 highReplays:0 highDecryptErrors:0 highMCDecryptErrors:0 lowRxFrameCount:1
+[304688.963371]: LQM-WIFI: UI Entry curState:Idle prevState:PendingIP event:ChannelQualityUpdate data:1
+[304688.963380]: LQM-WIFI: UI Exit curState:Idle prevState:PendingIP
+[304688.963383]: LQM-WIFI: slow-wifi Host and FW packet count mismatchLQM-WIFI: slow-wifi Host and FW packet count mismatchcom.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114936053
+[304689.400022]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:29 outputPackets:30 packetThreshold:50
+[304689.400027]: com.apple.p2p: monitorInfraTraffic[8694] Infra Traffic type has changed from Bulk Data to Real Time. AWDL is Off
+[304689.400030]: com.apple.p2p: monitorInfraTraffic[8773]: Updating infra traffic state from Bulk Data to Real Time
+[304690.424837]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114937077
+[304690.424853]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:15 outputPackets:15 packetThreshold:50
+[304690.424862]: com.apple.p2p: monitorInfraTraffic[8694] Infra Traffic type has changed from Real Time to Bulk Data. AWDL is Off
+[304690.424866]: com.apple.p2p: monitorInfraTraffic[8773]: Updating infra traffic state from Real Time to Bulk Data
+[304691.292043]: tx_flush:1338: disk3 xid 10652104 tx stats: # 674600 owait 38186 919us finish 678928 bar2 672599 f 653835 enter 42 fq 10 11 71us close 0us prep 494us flush 2703us
+[304691.449895]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114938103
+[304691.449904]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:9 outputPackets:10 packetThreshold:50
+[304692.188665]: tx_flush:1338: disk3 xid 10652124 tx stats: # 674620 owait 38186 919us finish 678948 bar2 672619 f 653855 enter 1 fq 10 11 63us close 0us prep 111us flush 2586us
+[304692.474951]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114939128
+[304692.474968]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:44 outputPackets:50 packetThreshold:50
+[304692.474973]: com.apple.p2p: monitorInfraTraffic[8694] Infra Traffic type has changed from Bulk Data to Real Time. AWDL is Off
+[304692.474975]: com.apple.p2p: monitorInfraTraffic[8773]: Updating infra traffic state from Bulk Data to Real Time
+[304693.123260]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<117 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304693.123290]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<5 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304693.123301]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304693.123312]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<2 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304693.123429]: LQM-WiFi: BE : Count: 117 avgLatencyMs:1 maxLatencyMs:4 
+[304693.123445]: LQM-WiFi: BK : Count: 5 avgLatencyMs:1 maxLatencyMs:1 
+[304693.123452]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[304693.123466]: LQM-WiFi: VO : Count: 2 avgLatencyMs:1 maxLatencyMs:2 
+[304693.123477]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=2 NoACK=0 Expired=0 OtherErr=0
+
+[304693.123485]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304693.123499]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304693.123510]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304693.123521]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304693.152039]: LQM-WIFI:  (HighBand) rxToss=0 rxLastTossRsn=0 rxNoFrag=0 rxNoCmplId=0 rxNoHaddr=0 rxMulti=0 rxUndec=0
+
+[304693.152063]: LQM-WIFI:  (HighBand) rxCrsGlitch=125 rxBphyCrsGlitch=0 rxStart=2550 rxBadPLCP=1788 rxBphyBadPLCP=0 rxBadFCS=1619 rxFifo0Ovfl=0 rxFifo1Ovfl=0 rx_nobuf=0 rxAnyErr=1798 rxResponseTimeout=2 rxNoDelim=8 rxFrmTooLong=0 rxFrmTooShort=1257
+
+[304693.152095]: LQM-WIFI: (HighBand) txRTSFrm=191 txRTSFail=0 rxCTSUcast=190 rxRTSUcast=0 txCTSFrm=2 txAMPDU=279 rxBACK=279 txPhyError=0 txAllFrm=966 txMPDU=1257 txUcast=281 rxACKUcast=2 OfdmDesense=0 dB
+
+[304693.152103]: LQM-WIFI: (HighBand) rxBeaconMbss=50 rxBeaconObss=0 rxDataUcastMbss=343 rxMgmtUcastMbss=88 rxCNTRLUcast=471 txACKFrm=1 txBACK=313 ctxFifoFull=0 ctxFifo2Full=0 rxDataMcast=0 rxMgmtMcast=50
+
+[304693.152113]: LQM-WIFI: RX AMPDU (HighBand) rxAmpdu=294 txBACK(Ucode)=313 rxMpduInAmpdu=319 rxholes=0 rxdup=0 rxstuck=0 rxoow=0 rxoos=0 rxaddbareq=0 txaddbaresp=0 rxbar=0 txdelba=0 rxdelba=0 rxQueued=0 rxRetryNoBA=0
+
+[304693.152188]: LQM-WIFI: WME RX MPDUs (rxPER 0 %) in tids 0:5, 1:395, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0
+
+[304693.152260]: 304693.152259 wlan0.A[134387] [ik] updateLinkQualityMetrics@709:For current session updated fRxDurMulticast 430020, fRxDurBroadcast 18680 
+[304693.157135]: LQM-WIFI:  WiFi Latency: TxLat-hist  [1(100 %) / 0(0 %) / 0(0 %) / 0(0 %)]   RxLat-hist  [0(0 %) / 0(0 %) / 0(0 %) / 0(0 %)]  intermittent-state = 0 
+
+[304693.157199]: LQM-WIFI-CT: rssi=-44(-48 -45) snr=33 bcn=49(49) txFrames=91 txRetry=0 txRate=433333 rxFrames=95 rxRetry=0 rxRate=390000 rxToss=0
+[304693.499484]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114940152
+[304693.499506]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:15 outputPackets:18 packetThreshold:50
+[304693.499516]: com.apple.p2p: monitorInfraTraffic[8694] Infra Traffic type has changed from Real Time to Bulk Data. AWDL is Off
+[304693.499521]: com.apple.p2p: monitorInfraTraffic[8773]: Updating infra traffic state from Real Time to Bulk Data
+[304693.782019]: LQM-WIFI-CT: ofdmDesense=0 bphyDesense=0 reason=0x0
+[304693.958964]: LQM-WIFI-PHY:  Version = 5, ChanSpec=0xe02a, phy_wdg=10695, noise_req=10692, noise_crsbit=0, noise_apply=6, cal_counter=61, slice=0
+[304693.958982]: LQM-WIFI-PHY:  rxchain=15, txchain=0, gbd_bphy_sleep_counter=0, gbd_ofdm_sleep_counter=1, gbd_ofdm_desense=29, gbd_bphy_desense=0 
+[304693.958985]: LQM-WIFI-PHY:  chiptemp=29, femtemp=-50, btcx_mode=0, ltecx_mode=0, weakest_rssi=-46, chan_switch_cnt=40, phycal_disable=0, featureflag=64
+[304693.958989]: LQM-WIFI-PHY:  deaf_count=0, noise_mmt_overdue=0, crsmin_pwr_apply_cnt=11, ed_crs_status=0, preempt_status1=0, preempt_status2=35308, preempt_status3=0, preempt_status4=0 , counter_noise_iqest_to=0, cca_stats_total_glitch=24, cca_stats_bphy_glitch=0, cca_stats_total_badplcp=318,  cca_stats_bphy_badplcp=0, cca_stats_mbsstime= 1000, cca_stats_ed_duration=0
+[304693.958996]: LQM-WIFI-PHY:  measurehold=0, rxsense_disable_req_ch=0, ocl_disable_reqs=0, interference_mode=9, power_mode=1, obss_last_read_time=304679, asym_intf_ed_thresh=-70, obss_mit_bw=2 , obss_stats_cnt=8594, dynbw_init_reducebw_cnt=0, dynbw_resp_reducebw_cnt=0, dynbw_rxdata_reducebw_cnt=0,  obss_mmt_skip_cnt=0, obss_mmt_no_result_cnt= 2099, obss_mmt_intr_err_cnt=3
+[304693.959001]: LQM-WIFI-PHY:  gci_lst_inv_ctr=0, gci_lst_rst_ctr=10, gci_lst_sem_ctr=0, gci_lst_rb_st=385, gci_dbg01=0, gci_dbg02=0, gci_dbg03=0 , gci_dbg04=0, gci_dbg05=0, gci_lst_st_msk=65535, gci_inv_tx=0,  gci_inv_rx=0, gci_rst_tx= 140, gci_rst_rx=3
+[304693.959005]: LQM-WIFI-PHY:  gci_sem_ctr=0, gci_invstate=33409, gci_ctl2=3, gci_chan=57386, gci_cm=65535, gci_sc=0, gci_rst_sc=0, gci_prdc_rx=0 , gci_wk_rx=3, gci_rmac_rx=0, gci_tx_rx=0, asym_intf_stats=44,  asym_intf_ncal_crs_stat=0, ed_crsEn= 255, nvcfg0=2572, cal_suppressed_cntr_ed=0 
+[304693.959010]: LQM-WIFI-PHY:  sc_dccal_incc_cnt=0, sc_noisecal_incc_cnt=0, btc_mode=0, asym_intf_ant_noise_idx=0, asym_intf_pending_host_req_type=3,  asym_intf_ncal_crs_stat_idx=0, rxsense_noise_idx=0, rxsense_offset=0, asym_intf_tx_smartcca_cm=0, asym_intf_rx_noise_mit_cm=0,  asym_intf_avg_noise[0]= -98, asym_intf_latest_noise[0]=-98, asym_intf_avg_noise[1]=-98, asym_intf_latest_noise[1]=-98
+[304693.959020]: LQM-WIFI-PHY:  bad_txbaseidx_cnt[0]=0 curr_tssival[0]=1005 pwridx_init[0]=43 auxphystats[0]=17476 phystatsgaininfo[0]=39034 flexgaininfo_A[0]=608 crsmin_pwr_idx[0]=24, baseindxval[0]=42, crsmin_pwr[0]=-85, noise_level_inst[0]=-94, tgt_pwr[0]=55, estpwradj[0]=53, ed_threshold[0]=-74 bad_txbaseidx_cnt[1]=0 curr_tssival[1]=1013 pwridx_init[1]=40 auxphystats[1]=13107 phystatsgaininfo[1]=34938 flexgaininfo_A[1]=608 crsmin_pwr_idx[1]=24, baseindxval[1]=40, crsmin_pwr[1]=-84, noise_level_inst[1]=-94, tgt_pwr[1]=55, estpwradj[1]=53, ed_threshold[1]=-74 
+[304693.959029]: LQM-WIFI-PHY:  OBSS Info --> need_updt: 0, mit_status: 0, obss_mit_bw=2, last_rec_bw: 2, obss_last_read_time=304679 
+[304693.959031]: LQM-WIFI-PHY:  OBSS PWR Estimation Core0 --> LLL: 1  LLU: -94  LUL: -94  LUU: -94  ULL: 0  ULU: 0  UUL: 0  UUU: 0
+[304693.959034]: LQM-WIFI-PHY:  OBSS PWR Estimation Core1 --> LLL: 1  LLU: -94  LUL: -94  LUU: -94  ULL: 0  ULU: 0  UUL: 0  UUU: 0
+[304693.959036]: LQM-WIFI-PHY:  OBSS --> detection stats 0: 0  1: 0  2: 0  3: 0  4: 0  5: 0  6: 0  7: 0 
+[304693.959052]: 304693.959052 wlan0.A[134388] [ik] parsePHYEcounterV5@32668: Version = 5, ChanSpec=0xe02a, noise_req=10692, noise_crsbit=0, cal_counter=61, rxchain=15, chiptemp=29, femtemp=-50, btcx_mode=0,  ltecx_mode=0, weakest_rssi=-46, chan_switch_cnt=40, sc_dccal_incc_cnt=0
+[304693.959070]: 304693.959070 wlan0.A[134389] [ik] parsePHYEcounterV5@32673: gbd_ofdm_desense=29, gbd_bphy_desense=0, featureflag=64, crsmin_pwr_apply_cnt=11, preempt_status2=35308, ed_crs_status=0, measurehold=0, ocl_disable_reqs=0,  gci_rst_tx= 140, gci_rst_rx=3, gci_rst_sc=0, asym_intf_stats=44
+[304693.959092]: 304693.959092 wlan0.A[134390] [ik] parsePHYEcounterV5@32678: asym_intf_avg_noise[0]= -98, asym_intf_avg_noise[1]=-98, asym_intf_latest_noise[0]=-98, asym_intf_latest_noise[1]=-98, pwridx_init[0]=43, pwridx_init[1]=40,  baseindxval[0]=42, baseindxval[1]=40
+[304693.959099]: 304693.959099 wlan0.A[134391] [ik] parsePHYEcounterV5@32684: estpwradj[0]=53, estpwradj[1]=53, ed_threshold[0]=-74, ed_threshold[1]=-74, crsmin_pwr_idx[0]=24, crsmin_pwr_idx[1]=24,  crsmin_pwr[0]=-85, crsmin_pwr[1]=-84, noise_level_inst[0]=-94, noise_level_inst[1]=-94
+[304693.959109]: 304693.959109 wlan0.A[134392] [ik] updateChanSeqCommonStats@3470:P2P chan 36: dur 10945840, entry 61, crsglitch 221167, start 3700306, badplcp 2977271, badfcs 2745817, f0ov 0, f1ov 0, anyerr 2984300, resptout 5404, frmtooln 0, frmtoosh 2173372
+[304693.959131]: LQM-WIFI: (HighBand)  rxNotPrimary20s=0 ucodeLateDrop=0 rxInvalidUcodeLateWrongMACPHY=0 rxLate30us=0 rxLegacyFrmInvalid=0 txSifsErr=0 ooseqMacSusp=0
+[304693.964180]: LQM-WIFI: ccmpreplay=298 ccmpreplay_qosdata_nobapol_rxretry=0
+[304693.964257]: LQM-WIFI: Dynamic BW Stats: TxRTS [0,  0,  0,  0]   RxRTS [0,  0,  0,  0]   TxCTS [0,  0,  0,  0]   RxCTS [0,  0,  0,  0]
+[304693.964262]: LQM-WIFI: Dynamic BW Stats: TxMPDU [0,  0,  0,  0]   RxMPDU [0,  0,  0,  0]
+[304693.997646]: 304693.997645 wlan0.A[134393] [ik] updateChanSeqCommonStats@3470:P2P chan 36: dur 10945879, entry 61, crsglitch 221167, start 3700306, badplcp 2977271, badfcs 2745817, f0ov 0, f1ov 0, anyerr 2984300, resptout 5404, frmtooln 0, frmtoosh 2173372
+[304694.002779]: LQM-WIFI: ccmpreplay=298 ccmpreplay_qosdata_nobapol_rxretry=0
+[304694.002846]: LQM-WIFI: slow-wifi featureEnabled:1 Channel:36 chWidth:80 phyMode:128 nss:2 RSSI:-44 CCA:8 SNR:33 offChanDurUS:0 TVPMDurMS:0 concurrentIntDurMS:0 randomMac:0 dataStallScore:50 networkScore:0
+[304694.002853]: LQM-WIFI: slow-wifi btAntDurMS:0 btESCO:0/0 rc1CoexDurMS:0 rc2CoexDurMS:0 lteCoexDurMS:0 totalNonWLANDurMS:0 infraDutyCycle:100 lastScanType:0
+[304694.002856]: LQM-WIFI: slow-wifi availWLANDurMS:5039 availTxDurMS:4581 realTxDurMS:14 availRxDurMS:5025 realRxDurMS:458 measurementDurMS:5039 lastScanDurMS:0
+[304694.002859]: LQM-WIFI: slow-wifi Tx tput (i/p:0 o/p:0 expected:0)Mbps queueFullDurMS:0 avgLatencyMS:1 maxLatencyMS:5 phyRate(mode:433 avg:430 expected:892) phyRateTputRatio:0
+[304694.002862]: LQM-WIFI: slow-wifi Tx AMPDUDensity(actual:0 expectedAtQueueFull:64) retries:0 fails:0 fwFrames:91 hostFrames:0 hostFails:0 ctlPkts:1(2131) symptomsFails:0
+[304694.002865]: LQM-WIFI: slow-wifi TxLim[1] outputBelowExpected:0 outputBelowInput:0 lowTxFrameCount:1 queueFull:0 highLatency:0 baselineNotAllowed:0 highSymptomsFails:0
+[304694.002867]: LQM-WIFI: slow-wifi TxLim[1] lowPhyRate:0 lowPhyRateTputRatio:0 highPER:0 highRetries:0 lowTxAMPDUDensity:0 lowCCA:1 activeCoex:0 hostFWMismatch:0
+[304694.002870]: LQM-WIFI: slow-wifi Rx tput:0 Mbps baseline:0 Mbps overflows:0 fcsFail:1495 plcpBad:1647 goodPlcps:1821 crsGlitches:132 fwFrames:387 ucastFWFrames:92 hostFrames:0 AmpduDUP:0 APTxDataStallPct:0 rxAmpduTxBaMismatch:0
+[304694.002873]: LQM-WIFI: slow-wifi Rx ucast(replays:0 decryptErrs:0) mcast(replays:0 decryptErrs:0) phyRate(mode:433 avg:428 expected:892) dups:0 retries:0 phyRateTputRatio:0
+[304694.002875]: LQM-WIFI: slow-wifi RxLim[1] highRetries:0 highPhyPER:0 highDataPER:0 highOverflows:0 highRSSI:1 lowPhyRate:0 lowPhyRateTputRatio:0 
+[304694.002877]: LQM-WIFI: slow-wifi RxLim[1] highFCSErrors:0 highDups:0 highReplays:0 highDecryptErrors:0 highMCDecryptErrors:0 lowRxFrameCount:1
+[304694.002880]: LQM-WIFI: UI Entry curState:Idle prevState:PendingIP event:ChannelQualityUpdate data:1
+[304694.002885]: LQM-WIFI: UI Exit curState:Idle prevState:PendingIP
+[304694.523921]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114941177
+[304694.523947]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:21 outputPackets:18 packetThreshold:50
+[304695.371414]: + Speaker::stopIOEngineGated()+ Speaker stopTransportSpeaker: off
+[304695.381998]: - Speaker stopTransport ret=success(0)- Speaker::stopIOEngineGated() ret=success(0)com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114942202
+[304695.549049]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:3 outputPackets:3 packetThreshold:50
+[304696.177845]: process_is_plugin_host: running binary "zsh" in keys-off mode due to identity: com.apple.zshcom.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114943227
+[304696.574136]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:7 outputPackets:9 packetThreshold:50
+[304697.293330]: tx_flush:1338: disk3 xid 10652144 tx stats: # 674640 owait 38186 919us finish 678968 bar2 672639 f 653875 enter 70 fq 43 52 362us close 0us prep 743us flush 2691us
+[304697.599201]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114944252
+[304697.599222]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:26 outputPackets:21 packetThreshold:50
+[304698.122905]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<62 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304698.122926]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304698.122932]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304698.122936]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304698.123018]: LQM-WiFi: BE : Count: 62 avgLatencyMs:1 maxLatencyMs:5 
+[304698.123029]: LQM-WiFi: BK : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[304698.123031]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[304698.123034]: LQM-WiFi: VO : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[304698.123040]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=0 NoACK=0 Expired=0 OtherErr=0
+
+[304698.123045]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304698.123052]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304698.123059]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304698.123065]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304698.166029]: LQM-WIFI:  (HighBand) rxToss=0 rxLastTossRsn=0 rxNoFrag=0 rxNoCmplId=0 rxNoHaddr=0 rxMulti=0 rxUndec=0
+
+[304698.166051]: LQM-WIFI:  (HighBand) rxCrsGlitch=132 rxBphyCrsGlitch=0 rxStart=1821 rxBadPLCP=1647 rxBphyBadPLCP=0 rxBadFCS=1495 rxFifo0Ovfl=0 rxFifo1Ovfl=0 rx_nobuf=0 rxAnyErr=1649 rxResponseTimeout=0 rxNoDelim=0 rxFrmTooLong=0 rxFrmTooShort=1167
+
+[304698.166057]: LQM-WIFI: (HighBand) txRTSFrm=52 txRTSFail=0 rxCTSUcast=52 rxRTSUcast=0 txCTSFrm=0 txAMPDU=91 rxBACK=91 txPhyError=0 txAllFrm=312 txMPDU=1167 txUcast=97 rxACKUcast=6 OfdmDesense=0 dB
+
+[304698.166061]: LQM-WIFI: (HighBand) rxBeaconMbss=50 rxBeaconObss=0 rxDataUcastMbss=92 rxMgmtUcastMbss=38 rxCNTRLUcast=149 txACKFrm=0 txBACK=87 ctxFifoFull=0 ctxFifo2Full=0 rxDataMcast=0 rxMgmtMcast=50
+
+[304698.166080]: LQM-WIFI: RX AMPDU (HighBand) rxAmpdu=87 txBACK(Ucode)=87 rxMpduInAmpdu=93 rxholes=0 rxdup=0 rxstuck=0 rxoow=0 rxoos=0 rxaddbareq=0 txaddbaresp=0 rxbar=0 txdelba=0 rxdelba=0 rxQueued=0 rxRetryNoBA=0
+
+[304698.166138]: LQM-WIFI: WME RX MPDUs (rxPER 0 %) in tids 0:1, 1:90, 2:0, 3:0, 4:18, 5:0, 6:0, 7:0
+
+[304698.166193]: 304698.166193 wlan0.A[134394] [ik] updateLinkQualityMetrics@709:For current session updated fRxDurMulticast 430020, fRxDurBroadcast 18680 
+[304698.169998]: LQM-WIFI:  WiFi Latency: TxLat-hist  [1(100 %) / 0(0 %) / 0(0 %) / 0(0 %)]   RxLat-hist  [0(0 %) / 0(0 %) / 0(0 %) / 0(0 %)]  intermittent-state = 0 
+
+[304698.170036]: LQM-WIFI-CT: rssi=-43(-47 -45) snr=34 bcn=50(50) txFrames=53 txRetry=0 txRate=433333 rxFrames=56 rxRetry=0 rxRate=390000 rxToss=0
+[304698.624274]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114945277
+[304698.624294]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:13 outputPackets:10 packetThreshold:50
+[304698.783056]: LQM-WIFI-CT: ofdmDesense=0 bphyDesense=0 reason=0x0
+[304698.998234]: LQM-WIFI-PHY:  Version = 5, ChanSpec=0xe02a, phy_wdg=10700, noise_req=10697, noise_crsbit=0, noise_apply=6, cal_counter=61, slice=0
+[304698.998258]: LQM-WIFI-PHY:  rxchain=15, txchain=0, gbd_bphy_sleep_counter=0, gbd_ofdm_sleep_counter=2, gbd_ofdm_desense=33, gbd_bphy_desense=0 
+[304698.998262]: LQM-WIFI-PHY:  chiptemp=29, femtemp=-50, btcx_mode=0, ltecx_mode=0, weakest_rssi=-46, chan_switch_cnt=40, phycal_disable=0, featureflag=64
+[304698.998266]: LQM-WIFI-PHY:  deaf_count=0, noise_mmt_overdue=0, crsmin_pwr_apply_cnt=11, ed_crs_status=0, preempt_status1=0, preempt_status2=35315, preempt_status3=0, preempt_status4=0 , counter_noise_iqest_to=0, cca_stats_total_glitch=10, cca_stats_bphy_glitch=0, cca_stats_total_badplcp=185,  cca_stats_bphy_badplcp=0, cca_stats_mbsstime= 1000, cca_stats_ed_duration=0
+[304698.998273]: LQM-WIFI-PHY:  measurehold=0, rxsense_disable_req_ch=0, ocl_disable_reqs=0, interference_mode=9, power_mode=1, obss_last_read_time=304684, asym_intf_ed_thresh=-70, obss_mit_bw=2 , obss_stats_cnt=8599, dynbw_init_reducebw_cnt=0, dynbw_resp_reducebw_cnt=0, dynbw_rxdata_reducebw_cnt=0,  obss_mmt_skip_cnt=0, obss_mmt_no_result_cnt= 2099, obss_mmt_intr_err_cnt=3
+[304698.998279]: LQM-WIFI-PHY:  gci_lst_inv_ctr=0, gci_lst_rst_ctr=10, gci_lst_sem_ctr=0, gci_lst_rb_st=385, gci_dbg01=0, gci_dbg02=0, gci_dbg03=0 , gci_dbg04=0, gci_dbg05=0, gci_lst_st_msk=65535, gci_inv_tx=0,  gci_inv_rx=0, gci_rst_tx= 140, gci_rst_rx=3
+[304698.998283]: LQM-WIFI-PHY:  gci_sem_ctr=0, gci_invstate=33409, gci_ctl2=3, gci_chan=57386, gci_cm=65535, gci_sc=0, gci_rst_sc=0, gci_prdc_rx=0 , gci_wk_rx=3, gci_rmac_rx=0, gci_tx_rx=0, asym_intf_stats=44,  asym_intf_ncal_crs_stat=0, ed_crsEn= 255, nvcfg0=2572, cal_suppressed_cntr_ed=0 
+[304698.998288]: LQM-WIFI-PHY:  sc_dccal_incc_cnt=0, sc_noisecal_incc_cnt=0, btc_mode=0, asym_intf_ant_noise_idx=0, asym_intf_pending_host_req_type=3,  asym_intf_ncal_crs_stat_idx=0, rxsense_noise_idx=0, rxsense_offset=0, asym_intf_tx_smartcca_cm=0, asym_intf_rx_noise_mit_cm=0,  asym_intf_avg_noise[0]= -98, asym_intf_latest_noise[0]=-98, asym_intf_avg_noise[1]=-98, asym_intf_latest_noise[1]=-98
+[304698.998294]: LQM-WIFI-PHY:  bad_txbaseidx_cnt[0]=0 curr_tssival[0]=952 pwridx_init[0]=43 auxphystats[0]=8738 phystatsgaininfo[0]=34862 flexgaininfo_A[0]=544 crsmin_pwr_idx[0]=28, baseindxval[0]=42, crsmin_pwr[0]=-85, noise_level_inst[0]=-95, tgt_pwr[0]=55, estpwradj[0]=57, ed_threshold[0]=-74 bad_txbaseidx_cnt[1]=0 curr_tssival[1]=959 pwridx_init[1]=40 auxphystats[1]=8738 phystatsgaininfo[1]=34830 flexgaininfo_A[1]=544 crsmin_pwr_idx[1]=28, baseindxval[1]=40, crsmin_pwr[1]=-84, noise_level_inst[1]=-95, tgt_pwr[1]=55, estpwradj[1]=57, ed_threshold[1]=-74 
+[304698.998303]: LQM-WIFI-PHY:  OBSS Info --> need_updt: 0, mit_status: 0, obss_mit_bw=2, last_rec_bw: 2, obss_last_read_time=304684 
+[304698.998305]: LQM-WIFI-PHY:  OBSS PWR Estimation Core0 --> LLL: 1  LLU: -94  LUL: -94  LUU: -94  ULL: 0  ULU: 0  UUL: 0  UUU: 0
+[304698.998308]: LQM-WIFI-PHY:  OBSS PWR Estimation Core1 --> LLL: 1  LLU: -94  LUL: -94  LUU: -94  ULL: 0  ULU: 0  UUL: 0  UUU: 0
+[304698.998310]: LQM-WIFI-PHY:  OBSS --> detection stats 0: 0  1: 0  2: 0  3: 0  4: 0  5: 0  6: 0  7: 0 
+[304698.998328]: 304698.998327 wlan0.A[134395] [ik] parsePHYEcounterV5@32668: Version = 5, ChanSpec=0xe02a, noise_req=10697, noise_crsbit=0, cal_counter=61, rxchain=15, chiptemp=29, femtemp=-50, btcx_mode=0,  ltecx_mode=0, weakest_rssi=-46, chan_switch_cnt=40, sc_dccal_incc_cnt=0
+[304698.998354]: 304698.998354 wlan0.A[134396] [ik] parsePHYEcounterV5@32673: gbd_ofdm_desense=33, gbd_bphy_desense=0, featureflag=64, crsmin_pwr_apply_cnt=11, preempt_status2=35315, ed_crs_status=0, measurehold=0, ocl_disable_reqs=0,  gci_rst_tx= 140, gci_rst_rx=3, gci_rst_sc=0, asym_intf_stats=44
+[304698.998362]: 304698.998362 wlan0.A[134397] [ik] parsePHYEcounterV5@32678: asym_intf_avg_noise[0]= -98, asym_intf_avg_noise[1]=-98, asym_intf_latest_noise[0]=-98, asym_intf_latest_noise[1]=-98, pwridx_init[0]=43, pwridx_init[1]=40,  baseindxval[0]=42, baseindxval[1]=40
+[304698.998370]: 304698.998370 wlan0.A[134398] [ik] parsePHYEcounterV5@32684: estpwradj[0]=57, estpwradj[1]=57, ed_threshold[0]=-74, ed_threshold[1]=-74, crsmin_pwr_idx[0]=28, crsmin_pwr_idx[1]=28,  crsmin_pwr[0]=-85, crsmin_pwr[1]=-84, noise_level_inst[0]=-95, noise_level_inst[1]=-95
+[304698.998398]: 304698.998398 wlan0.A[134399] [ik] updateChanSeqCommonStats@3470:P2P chan 36: dur 10950879, entry 61, crsglitch 221267, start 3701787, badplcp 2978664, badfcs 2747096, f0ov 0, f1ov 0, anyerr 2985696, resptout 5404, frmtooln 0, frmtoosh 2174358
+[304698.998427]: LQM-WIFI: (HighBand)  rxNotPrimary20s=0 ucodeLateDrop=0 rxInvalidUcodeLateWrongMACPHY=0 rxLate30us=0 rxLegacyFrmInvalid=0 txSifsErr=0 ooseqMacSusp=0
+[304699.003402]: LQM-WIFI: ccmpreplay=298 ccmpreplay_qosdata_nobapol_rxretry=0
+[304699.003527]: LQM-WIFI: Dynamic BW Stats: TxRTS [0,  0,  0,  0]   RxRTS [0,  0,  0,  0]   TxCTS [0,  0,  0,  0]   RxCTS [0,  0,  0,  0]
+[304699.003535]: LQM-WIFI: Dynamic BW Stats: TxMPDU [0,  0,  0,  0]   RxMPDU [0,  0,  0,  0]
+[304699.036882]: 304699.036881 wlan0.A[134400] [ik] updateChanSeqCommonStats@3470:P2P chan 36: dur 10950918, entry 61, crsglitch 221267, start 3701787, badplcp 2978664, badfcs 2747096, f0ov 0, f1ov 0, anyerr 2985696, resptout 5404, frmtooln 0, frmtoosh 2174358
+[304699.042000]: LQM-WIFI: ccmpreplay=298 ccmpreplay_qosdata_nobapol_rxretry=0
+[304699.346501]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304699.346530]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304699.346595]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304699.346602]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304699.649365]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114946302
+[304699.649386]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:12 outputPackets:16 packetThreshold:50
+[304699.909479]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304699.909505]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304699.971579]: process_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashLQM-WIFI: WeightAvgLQM rssi=-43 snr=35 txRate=433333 rxRate=377812
+
+[304700.008112]: LQM-WIFI: slow-wifi featureEnabled:1 Channel:36 chWidth:80 phyMode:128 nss:2 RSSI:-43 CCA:8 SNR:35 offChanDurUS:0 TVPMDurMS:0 concurrentIntDurMS:0 randomMac:0 dataStallScore:50 networkScore:0
+[304700.008123]: LQM-WIFI: slow-wifi btAntDurMS:0 btESCO:0/0 rc1CoexDurMS:0 rc2CoexDurMS:0 lteCoexDurMS:0 totalNonWLANDurMS:0 infraDutyCycle:100 lastScanType:0
+[304700.008126]: LQM-WIFI: slow-wifi availWLANDurMS:6005 availTxDurMS:5615 realTxDurMS:8 availRxDurMS:5997 realRxDurMS:390 measurementDurMS:6005 lastScanDurMS:0
+[304700.008129]: LQM-WIFI: slow-wifi Tx tput (i/p:0 o/p:0 expected:0)Mbps queueFullDurMS:0 avgLatencyMS:1 maxLatencyMS:5 phyRate(mode:433 avg:430 expected:892) phyRateTputRatio:0
+[304700.008133]: LQM-WIFI: slow-wifi Tx AMPDUDensity(actual:1 expectedAtQueueFull:64) retries:0 fails:0 fwFrames:45 hostFrames:0 hostFails:0 ctlPkts:0(2131) symptomsFails:0
+[304700.008136]: LQM-WIFI: slow-wifi TxLim[1] outputBelowExpected:0 outputBelowInput:0 lowTxFrameCount:1 queueFull:0 highLatency:0 baselineNotAllowed:0 highSymptomsFails:0
+[304700.008139]: LQM-WIFI: slow-wifi TxLim[1] lowPhyRate:0 lowPhyRateTputRatio:0 highPER:0 highRetries:0 lowTxAMPDUDensity:1 lowCCA:1 activeCoex:0 hostFWMismatch:0
+[304700.008141]: LQM-WIFI: slow-wifi Rx tput:0 Mbps baseline:0 Mbps overflows:0 fcsFail:1279 plcpBad:1393 goodPlcps:1481 crsGlitches:100 fwFrames:240 ucastFWFrames:53 hostFrames:0 AmpduDUP:0 APTxDataStallPct:0 rxAmpduTxBaMismatch:0
+[304700.008144]: LQM-WIFI: slow-wifi Rx ucast(replays:0 decryptErrs:0) mcast(replays:0 decryptErrs:0) phyRate(mode:433 avg:413 expected:892) dups:0 retries:0 phyRateTputRatio:0
+[304700.008147]: LQM-WIFI: slow-wifi RxLim[1] highRetries:0 highPhyPER:0 highDataPER:0 highOverflows:0 highRSSI:1 lowPhyRate:0 lowPhyRateTputRatio:0 
+[304700.008149]: LQM-WIFI: slow-wifi RxLim[1] highFCSErrors:0 highDups:0 highReplays:0 highDecryptErrors:0 highMCDecryptErrors:0 lowRxFrameCount:1
+[304700.008151]: LQM-WIFI: UI Entry curState:Idle prevState:PendingIP event:ChannelQualityUpdate data:1
+[304700.008155]: LQM-WIFI: UI Exit curState:Idle prevState:PendingIP
+[304700.226272]: AppleAVD: removeClient(): clientID: 1 - rollingAvgFPS: 493AppleAVD: + clientClosedGated [<ptr>] : client <ptr>; m_pUserClientList[0..3] = <ptr> 0 0 0 clientid 1, m_numActiveUserClients 1IOReturn CoreAnalyticsUserClient::sendDataToUser(uint8_t *, size_t)::309: sending 2211 bytes
+[304700.268663]: tx_flush:1338: disk3 xid 10652164 tx stats: # 674660 owait 38186 919us finish 678988 bar2 672659 f 653895 enter 2 fq 31 54 381us close 0us prep 202us flush 2044us
+[304700.392639]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304700.392651]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304700.396765]: cfil_data_service_ctl_q:4232 cfil_service_pending_queue() error -2
+[304700.396772]: cfil_update_data_offsets:4665 cfil_data_service_ctl_q() error -2
+[304700.462034]: process_is_plugin_host: running binary "zsh" in keys-off mode due to identity: com.apple.zshprocess_is_plugin_host: running binary "zsh" in keys-off mode due to identity: com.apple.zshprocess_is_plugin_host: running binary "zsh" in keys-off mode due to identity: com.apple.zshprocess_is_plugin_host: running binary "zsh" in keys-off mode due to identity: com.apple.zshprocess_is_plugin_host: running binary "zsh" in keys-off mode due to identity: com.apple.zshprocess_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashcom.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114947327
+[304700.674452]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:15 outputPackets:30 packetThreshold:50
+[304701.699500]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114948352
+[304701.699515]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:58 outputPackets:55 packetThreshold:50
+[304701.699519]: com.apple.p2p: monitorInfraTraffic[8694] Infra Traffic type has changed from Bulk Data to Real Time. AWDL is Off
+[304701.699522]: com.apple.p2p: monitorInfraTraffic[8773]: Updating infra traffic state from Bulk Data to Real Time
+[304702.698733]: tx_flush:1338: disk3 xid 10652184 tx stats: # 674680 owait 38186 919us finish 679008 bar2 672679 f 653912 enter 14 fq 9 11 40us close 0us prep 379us flush 1615us
+[304702.723635]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114949376
+[304702.723670]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:45 outputPackets:39 packetThreshold:50
+[304703.124160]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<170 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[304703.124191]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<4 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[304703.124201]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[304703.124210]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[304703.124322]: LQM-WiFi: BE : Count: 170 avgLatencyMs:1 maxLatencyMs:5 
+[304703.124337]: LQM-WiFi: BK : Count: 4 avgLatencyMs:1 maxLatencyMs:2 
+[304703.124343]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[304703.124348]: LQM-WiFi: VO : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[304703.124359]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=0 NoACK=0 Expired=0 OtherErr=0
+
+[304703.124368]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+[304703.124381]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+[304703.124409]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+[304703.124421]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+[304703.177184]: LQM-WIFI:  (HighBand) rxToss=0 rxLastTossRsn=0 rxNoFrag=0 rxNoCmplId=0 rxNoHaddr=0 rxMulti=0 rxUndec=0
+
+[304703.177210]: LQM-WIFI:  (HighBand) rxCrsGlitch=100 rxBphyCrsGlitch=0 rxStart=1481 rxBadPLCP=1393 rxBphyBadPLCP=0 rxBadFCS=1279 rxFifo0Ovfl=0 rxFifo1Ovfl=0 rx_nobuf=0 rxAnyErr=1396 rxResponseTimeout=0 rxNoDelim=0 rxFrmTooLong=0 rxFrmTooShort=986
+
+[304703.177221]: LQM-WIFI: (HighBand) txRTSFrm=23 txRTSFail=0 rxCTSUcast=23 rxRTSUcast=0 txCTSFrm=0 txAMPDU=47 rxBACK=47 txPhyError=0 txAllFrm=175 txMPDU=986 txUcast=57 rxACKUcast=10 OfdmDesense=0 dB
+
+[304703.177229]: LQM-WIFI: (HighBand) rxBeaconMbss=50 rxBeaconObss=0 rxDataUcastMbss=53 rxMgmtUcastMbss=24 rxCNTRLUcast=80 txACKFrm=0 txBACK=47 ctxFifoFull=0 ctxFifo2Full=0 rxDataMcast=0 rxMgmtMcast=50
+
+[304703.177240]: LQM-WIFI: RX AMPDU (HighBand) rxAmpdu=42 txBACK(Ucode)=47 rxMpduInAmpdu=47 rxholes=0 rxdup=0 rxstuck=0 rxoow=0 rxoos=0 rxaddbareq=0 txaddbaresp=0 rxbar=0 txdelba=0 rxdelba=0 rxQueued=0 rxRetryNoBA=0
+
+[304703.177309]: LQM-WIFI: WME RX MPDUs (rxPER 0 %) in tids 0:0, 1:55, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0
+
+[304703.177387]: 304703.177386 wlan0.A[134401] [ik] updateLinkQualityMetrics@709:For current session updated fRxDurMulticast 430020, fRxDurBroadcast 18680 
+[304703.181462]: LQM-WIFI:  WiFi Latency: TxLat-hist  [1(100 %) / 0(0 %) / 0(0 %) / 0(0 %)]   RxLat-hist  [0(0 %) / 0(0 %) / 0(0 %) / 0(0 %)]  intermittent-state = 0 
+
+[304703.181513]: LQM-WIFI-CT: rssi=-44(-48 -46) snr=34 bcn=49(49) txFrames=122 txRetry=1 txRate=433333 rxFrames=135 rxRetry=2 rxRate=390000 rxToss=0
+[304703.290082]: tx_flush:1338: disk3 xid 10652204 tx stats: # 674700 owait 38186 919us finish 679028 bar2 672699 f 653932 enter 3 fq 9 11 39us close 0us prep 83us flush 2509us
+[304703.546143]: Sandbox apply: mdworker_shared[39482] <bytes>com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114950400
+[304703.747851]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:40 outputPackets:43 packetThreshold:50
+[304703.783104]: LQM-WIFI-CT: ofdmDesense=0 bphyDesense=0 reason=0x0
+[304704.037721]: LQM-WIFI-PHY:  Version = 5, ChanSpec=0xe02a, phy_wdg=10705, noise_req=10702, noise_crsbit=0, noise_apply=6, cal_counter=61, slice=0
+[304704.037751]: LQM-WIFI-PHY:  rxchain=15, txchain=0, gbd_bphy_sleep_counter=0, gbd_ofdm_sleep_counter=1, gbd_ofdm_desense=34, gbd_bphy_desense=0 
+[304704.037755]: LQM-WIFI-PHY:  chiptemp=30, femtemp=-50, btcx_mode=0, ltecx_mode=0, weakest_rssi=-46, chan_switch_cnt=40, phycal_disable=0, featureflag=64
+[304704.037759]: LQM-WIFI-PHY:  deaf_count=0, noise_mmt_overdue=0, crsmin_pwr_apply_cnt=11, ed_crs_status=0, preempt_status1=0, preempt_status2=35335, preempt_status3=0, preempt_status4=0 , counter_noise_iqest_to=0, cca_stats_total_glitch=15, cca_stats_bphy_glitch=0, cca_stats_total_badplcp=352,  cca_stats_bphy_badplcp=0, cca_stats_mbsstime= 1000, cca_stats_ed_duration=0
+[304704.037767]: LQM-WIFI-PHY:  measurehold=0, rxsense_disable_req_ch=0, ocl_disable_reqs=0, interference_mode=9, power_mode=1, obss_last_read_time=304690, asym_intf_ed_thresh=-70, obss_mit_bw=2 , obss_stats_cnt=8604, dynbw_init_reducebw_cnt=0, dynbw_resp_reducebw_cnt=0, dynbw_rxdata_reducebw_cnt=0,  obss_mmt_skip_cnt=0, obss_mmt_no_result_cnt= 2099, obss_mmt_intr_err_cnt=3
+[304704.037772]: LQM-WIFI-PHY:  gci_lst_inv_ctr=0, gci_lst_rst_ctr=10, gci_lst_sem_ctr=0, gci_lst_rb_st=385, gci_dbg01=0, gci_dbg02=0, gci_dbg03=0 , gci_dbg04=0, gci_dbg05=0, gci_lst_st_msk=65535, gci_inv_tx=0,  gci_inv_rx=0, gci_rst_tx= 140, gci_rst_rx=3
+[304704.037776]: LQM-WIFI-PHY:  gci_sem_ctr=0, gci_invstate=33409, gci_ctl2=3, gci_chan=57386, gci_cm=65535, gci_sc=0, gci_rst_sc=0, gci_prdc_rx=0 , gci_wk_rx=3, gci_rmac_rx=0, gci_tx_rx=0, asym_intf_stats=44,  asym_intf_ncal_crs_stat=0, ed_crsEn= 255, nvcfg0=2572, cal_suppressed_cntr_ed=0 
+[304704.037781]: LQM-WIFI-PHY:  sc_dccal_incc_cnt=0, sc_noisecal_incc_cnt=0, btc_mode=0, asym_intf_ant_noise_idx=0, asym_intf_pending_host_req_type=3,  asym_intf_ncal_crs_stat_idx=0, rxsense_noise_idx=0, rxsense_offset=0, asym_intf_tx_smartcca_cm=0, asym_intf_rx_noise_mit_cm=0,  asym_intf_avg_noise[0]= -98, asym_intf_latest_noise[0]=-98, asym_intf_avg_noise[1]=-98, asym_intf_latest_noise[1]=-98
+[304704.037787]: LQM-WIFI-PHY:  bad_txbaseidx_cnt[0]=0 curr_tssival[0]=952 pwridx_init[0]=43 auxphystats[0]=34952 phystatsgaininfo[0]=43130 flexgaininfo_A[0]=608 crsmin_pwr_idx[0]=29, baseindxval[0]=42, crsmin_pwr[0]=-85, noise_level_inst[0]=-94, tgt_pwr[0]=55, estpwradj[0]=57, ed_threshold[0]=-74 bad_txbaseidx_cnt[1]=0 curr_tssival[1]=962 pwridx_init[1]=40 auxphystats[1]=34952 phystatsgaininfo[1]=43130 flexgaininfo_A[1]=608 crsmin_pwr_idx[1]=29, baseindxval[1]=39, crsmin_pwr[1]=-84, noise_level_inst[1]=-94, tgt_pwr[1]=55, estpwradj[1]=58, ed_threshold[1]=-74 
+[304704.037796]: LQM-WIFI-PHY:  OBSS Info --> need_updt: 0, mit_status: 0, obss_mit_bw=2, last_rec_bw: 2, obss_last_read_time=304690 
+[304704.037799]: LQM-WIFI-PHY:  OBSS PWR Estimation Core0 --> LLL: 1  LLU: -94  LUL: -94  LUU: -94  ULL: 0  ULU: 0  UUL: 0  UUU: 0
+[304704.037801]: LQM-WIFI-PHY:  OBSS PWR Estimation Core1 --> LLL: 1  LLU: -94  LUL: -94  LUU: -94  ULL: 0  ULU: 0  UUL: 0  UUU: 0
+[304704.037803]: LQM-WIFI-PHY:  OBSS --> detection stats 0: 0  1: 0  2: 0  3: 0  4: 0  5: 0  6: 0  7: 0 
+[304704.037832]: 304704.037831 wlan0.A[134402] [ik] parsePHYEcounterV5@32668: Version = 5, ChanSpec=0xe02a, noise_req=10702, noise_crsbit=0, cal_counter=61, rxchain=15, chiptemp=30, femtemp=-50, btcx_mode=0,  ltecx_mode=0, weakest_rssi=-46, chan_switch_cnt=40, sc_dccal_incc_cnt=0
+[304704.037854]: 304704.037854 wlan0.A[134403] [ik] parsePHYEcounterV5@32673: gbd_ofdm_desense=34, gbd_bphy_desense=0, featureflag=64, crsmin_pwr_apply_cnt=11, preempt_status2=35335, ed_crs_status=0, measurehold=0, ocl_disable_reqs=0,  gci_rst_tx= 140, gci_rst_rx=3, gci_rst_sc=0, asym_intf_stats=44
+[304704.037862]: 304704.037862 wlan0.A[134404] [ik] parsePHYEcounterV5@32678: asym_intf_avg_noise[0]= -98, asym_intf_avg_noise[1]=-98, asym_intf_latest_noise[0]=-98, asym_intf_latest_noise[1]=-98, pwridx_init[0]=43, pwridx_init[1]=40,  baseindxval[0]=42, baseindxval[1]=39
+[304704.037872]: 304704.037872 wlan0.A[134405] [ik] parsePHYEcounterV5@32684: estpwradj[0]=57, estpwradj[1]=58, ed_threshold[0]=-74, ed_threshold[1]=-74, crsmin_pwr_idx[0]=29, crsmin_pwr_idx[1]=29,  crsmin_pwr[0]=-85, crsmin_pwr[1]=-84, noise_level_inst[0]=-94, noise_level_inst[1]=-94
+[304704.037883]: 304704.037883 wlan0.A[134406] [ik] updateChanSeqCommonStats@3470:P2P chan 36: dur 10955919, entry 61, crsglitch 221392, start 3703839, badplcp 2980443, badfcs 2748688, f0ov 0, f1ov 0, anyerr 2987481, resptout 5408, frmtooln 0, frmtoosh 2175605
+[304704.037907]: LQM-WIFI: (HighBand)  rxNotPrimary20s=0 ucodeLateDrop=0 rxInvalidUcodeLateWrongMACPHY=0 rxLate30us=0 rxLegacyFrmInvalid=0 txSifsErr=0 ooseqMacSusp=0
+[304704.042836]: LQM-WIFI: ccmpreplay=298 ccmpreplay_qosdata_nobapol_rxretry=0
+[304704.042926]: LQM-WIFI: Dynamic BW Stats: TxRTS [0,  0,  0,  0]   RxRTS [0,  0,  0,  0]   TxCTS [0,  0,  0,  0]   RxCTS [0,  0,  0,  0]
+[304704.042931]: LQM-WIFI: Dynamic BW Stats: TxMPDU [0,  0,  0,  0]   RxMPDU [0,  0,  0,  0]
+[304704.772912]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114951426
+[304704.772931]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:15 outputPackets:15 packetThreshold:50
+[304704.772937]: com.apple.p2p: monitorInfraTraffic[8694] Infra Traffic type has changed from Real Time to Bulk Data. AWDL is Off
+[304704.772940]: com.apple.p2p: monitorInfraTraffic[8773]: Updating infra traffic state from Real Time to Bulk Data
+[304705.028602]: LQM-WIFI: WeightAvgLQM rssi=-45 snr=34 txRate=433333 rxRate=342000
+
+[304705.176360]: SMCC::smcYPCEventCheck ERROR: invalid input structure size:88 key PSTR
+[304705.176435]: SMCC::smcYPCEventCheck ERROR: invalid input structure size:88 key PCPC
+[304705.176488]: SMCC::smcYPCEventCheck ERROR: invalid input structure size:88 key PCPG
+[304705.176533]: SMCC::smcYPCEventCheck ERROR: invalid input structure size:88 key PG0R
+[304705.176580]: SMCC::smcYPCEventCheck ERROR: invalid input structure size:88 key PG1R
+[304705.607614]: 304705.607613 wlan0.A[134407] [ik] updateChanSeqCommonStats@3470:P2P chan 36: dur 10957488, entry 61, crsglitch 221412, start 3704169, badplcp 2980759, badfcs 2748977, f0ov 0, f1ov 0, anyerr 2987798, resptout 5408, frmtooln 0, frmtoosh 2175828
+[304705.613804]: LQM-WIFI: ccmpreplay=298 ccmpreplay_qosdata_nobapol_rxretry=0
+[304705.613876]: LQM-WIFI: slow-wifi featureEnabled:1 Channel:36 chWidth:80 phyMode:128 nss:2 RSSI:-45 CCA:8 SNR:34 offChanDurUS:0 TVPMDurMS:0 concurrentIntDurMS:0 randomMac:0 dataStallScore:50 networkScore:0
+[304705.613886]: LQM-WIFI: slow-wifi btAntDurMS:0 btESCO:0/0 rc1CoexDurMS:0 rc2CoexDurMS:0 lteCoexDurMS:0 totalNonWLANDurMS:0 infraDutyCycle:100 lastScanType:0
+[304705.613892]: LQM-WIFI: slow-wifi availWLANDurMS:5558 availTxDurMS:4978 realTxDurMS:23 availRxDurMS:5535 realRxDurMS:580 measurementDurMS:5558 lastScanDurMS:0
+[304705.613896]: LQM-WIFI: slow-wifi Tx tput (i/p:0 o/p:0 expected:0)Mbps queueFullDurMS:0 avgLatencyMS:1 maxLatencyMS:2 phyRate(mode:433 avg:430 expected:892) phyRateTputRatio:0
+[304705.613902]: LQM-WIFI: slow-wifi Tx AMPDUDensity(actual:2 expectedAtQueueFull:64) retries:1 fails:0 fwFrames:143 hostFrames:0 hostFails:0 ctlPkts:4(2135) symptomsFails:0
+[304705.613906]: LQM-WIFI: slow-wifi TxLim[1] outputBelowExpected:0 outputBelowInput:0 lowTxFrameCount:1 queueFull:0 highLatency:0 baselineNotAllowed:0 highSymptomsFails:0
+[304705.613911]: LQM-WIFI: slow-wifi TxLim[1] lowPhyRate:0 lowPhyRateTputRatio:0 highPER:0 highRetries:0 lowTxAMPDUDensity:1 lowCCA:1 activeCoex:0 hostFWMismatch:1
+[304705.613931]: LQM-WIFI: slow-wifi Rx tput:0 Mbps baseline:0 Mbps overflows:0 fcsFail:1881 plcpBad:2095 goodPlcps:2382 crsGlitches:145 fwFrames:595 ucastFWFrames:154 hostFrames:0 AmpduDUP:0 APTxDataStallPct:0 rxAmpduTxBaMismatch:0
+[304705.613937]: LQM-WIFI: slow-wifi Rx ucast(replays:0 decryptErrs:0) mcast(replays:0 decryptErrs:0) phyRate(mode:433 avg:406 expected:892) dups:0 retries:0 phyRateTputRatio:0
+[304705.613942]: LQM-WIFI: slow-wifi RxLim[1] highRetries:0 highPhyPER:0 highDataPER:0 highOverflows:0 highRSSI:1 lowPhyRate:0 lowPhyRateTputRatio:0 
+[304705.613946]: LQM-WIFI: slow-wifi RxLim[1] highFCSErrors:0 highDups:0 highReplays:0 highDecryptErrors:0 highMCDecryptErrors:0 lowRxFrameCount:1
+[304705.613951]: LQM-WIFI: UI Entry curState:Idle prevState:PendingIP event:ChannelQualityUpdate data:1
+[304705.613956]: LQM-WIFI: UI Exit curState:Idle prevState:PendingIP
+[304705.613959]: LQM-WIFI: slow-wifi Host and FW packet count mismatchLQM-WIFI: slow-wifi Host and FW packet count mismatchcom.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114952450
+[304705.797605]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:6 outputPackets:6 packetThreshold:50
+[304706.822682]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114953475
+[304706.822706]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:21 outputPackets:24 packetThreshold:50
+[304707.846902]: com.apple.p2p: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:114954500
+[304707.846923]: com.apple.p2p: currentInfraTrafficType:8577 checking if realtime upgrade required with inputPackets:18 outputPackets:16 packetThreshold:50
+[304708.124522]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<71 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304708.124549]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304708.124560]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304708.124570]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<4 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[304708.124689]: LQM-WiFi: BE : Count: 71 avgLatencyMs:1 maxLatencyMs:5 
+[304708.124705]: LQM-WiFi: BK : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[304708.124711]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[304708.124716]: LQM-WiFi: VO : Count: 4 avgLatencyMs:1 maxLatencyMs:2 
+[304708.124727]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=4 NoACK=0 Expired=0 OtherErr=0
+
+[304708.124735]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304708.124749]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304708.124761]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304708.124772]: LQM-WIFI: TX(FF:FF:FF:FF:FF:FF) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+[304708.190270]: LQM-WIFI:  (HighBand) rxToss=0 rxLastTossRsn=0 rxNoFrag=0 rxNoCmplId=0 rxNoHaddr=0 rxMulti=0 rxUndec=0
+
+[304708.190292]: LQM-WIFI:  (HighBand) rxCrsGlitch=145 rxBphyCrsGlitch=0 rxStart=2382 rxBadPLCP=2095 rxBphyBadPLCP=0 rxBadFCS=1881 rxFifo0Ovfl=0 rxFifo1Ovfl=0 rx_nobuf=0 rxAnyErr=2102 rxResponseTimeout=4 rxNoDelim=0 rxFrmTooLong=0 rxFrmTooShort=1470
+
+[304708.190313]: LQM-WIFI: (HighBand) txRTSFrm=87 txRTSFail=0 rxCTSUcast=85 rxRTSUcast=0 txCTSFrm=0 txAMPDU=143 rxBACK=142 txPhyError=0 txAllFrm=498 txMPDU=1470 txUcast=147 rxACKUcast=4 OfdmDesense=0 dB
+
+[304708.190318]: LQM-WIFI: (HighBand) rxBeaconMbss=60 rxBeaconObss=0 rxDataUcastMbss=154 rxMgmtUcastMbss=58 rxCNTRLUcast=231 txACKFrm=1 txBACK=145 ctxFifoFull=0 ctxFifo2Full=0 rxDataMcast=0 rxMgmtMcast=61
+
+[304708.190323]: LQM-WIFI: RX AMPDU (HighBand) rxAmpdu=145 txBACK(Ucode)=145 rxMpduInAmpdu=154 rxholes=0 rxdup=0 rxstuck=0 rxoow=0 rxoos=0 rxaddbareq=0 txaddbaresp=0 rxbar=0 txdelba=0 rxdelba=0 rxQueued=0 rxRetryNoBA=0
+
+[304708.190381]: LQM-WIFI: WME RX MPDUs (rxPER 0 %) in tids 0:4, 1:173, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0
+
+[304708.190434]: 304708.190434 wlan0.A[134408] [ik] updateLinkQualityMetrics@709:For current session updated fRxDurMulticast 430020, fRxDurBroadcast 18680 
+[304708.195405]: LQM-WIFI:  WiFi Latency: TxLat-hist  [1(100 %) / 0(0 %) / 0(0 %) / 0(0 %)]   RxLat-hist  [0(0 %) / 0(0 %) / 0(0 %) / 0(0 %)]  intermittent-state = 0 
+
+[304708.195451]: LQM-WIFI-CT: rssi=-43(-44 -44) snr=34 bcn=64(64) txFrames=63 txRetry=2 txRate=433333 rxFrames=62 rxRetry=0 rxRate=390000 rxToss=0
+[304708.765690]: process_is_plugin_host: running binary "sudo" in keys-off mode due to entitlement: com.apple.private.security.clear-library-validationLQM-WIFI-CT: ofdmDesense=0 bphyDesense=0 reason=0x0
