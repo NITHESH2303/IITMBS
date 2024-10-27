@@ -1,0 +1,129 @@
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+</head>
+<body>
+    <div id="div1" style="background-color: red; width: 100px; height: 100px;"></div>
+    <script src="script.js"></script>
+</body>
+</html> -->
+<!-- 
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script type="module">
+        export const divStyle1 = {
+            color: 'red',
+            height: '100px',
+            width: '100px'
+        };
+
+        export const divStyle2 = {
+            color: 'green',
+            height: '50px'
+        };
+        divStyle1.width = "50px"
+        const div1Style = document.getElementById('div1').style;
+        console.log(div1Style.height, div1Style.width);
+        div1Style.backgroundColor = divStyle1.color;
+        div1Style.height = divStyle2.height;
+        div1Style.width = divStyle1.width;
+        console.log(div1Style.height, div1Style.width);
+    </script>
+</head>
+<body>
+    <div id="div1" style="border: 100px solid orchid"></div>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<body>
+    <div id="app">{{ newMessage }}</div>
+    <script src="app.js"></script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<body>
+    <div id="app1">  
+        <div id="app2">  
+            <div id="app3">  
+                <p>The message is: {{ message }}</p>  
+            </div>  
+        </div>  
+    </div>  
+</body>
+<script src="app.js"></script>
+
+</html> -->
+<!-- 
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<div id="app">
+
+    <div v-bind="rawHtml">This div has a dynamic id => {{dynamicId}}</div>
+    
+    <div v-html="rawHtml"></div>
+  </div>
+  
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        dynamicId: 'myDynamicId',
+        rawHtml: '<p style="color: red;">This is raw HTML content.</p>'
+      }
+    });
+  </script> 
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <ol slot="I">
+            <comp v-for="message in messages" :message="message"></comp>
+        </ol>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">y: {{ y }}</div>
+    <script src="app.js"></script>
+</body>
+</html>
+
